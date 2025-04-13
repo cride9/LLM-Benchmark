@@ -1,4 +1,4 @@
-# LLM-Benchmark
+# LLM Context Length Test for Ollama
 This tool is made to determine open source (ollama) models context length
 Runs different kind of tests and then evaluates them into the results folder by default
 Some example test result were posted with modified num_ctx parameter
