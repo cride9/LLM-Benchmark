@@ -1,0 +1,139 @@
+{
+  "test_name": "memory_association",
+  "model": "granite3.249152:latest",
+  "timestamp": "2025-04-13T13:22:37.051818",
+  "results_by_length": {
+    "10000": {
+      "accuracy": 0.6666666666666666,
+      "test_results": {
+        "association_1": {
+          "correct": true,
+          "time_taken": 20.174628496170044,
+          "expected": "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr. James Wilson previously worked in the Artificial Intelligence Lab.",
+          "response": "Company Alpha's first product, the DataMind 1000, was developed using a revolutionary neural network algorithm created at MIT, where Dr. James Wilson had previously worked at the Artificial Intelligence Lab. This suggests that his expertise in artificial intelligence played a significant role in shaping Company Alpha's initial technological offering.",
+          "match_details": {
+            "fact_matches": {
+              "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr.": true,
+              "James Wilson previously worked in the Artificial Intelligence Lab.": true
+            },
+            "fact_score": 1.0
+          }
+        },
+        "association_2": {
+          "correct": false,
+          "time_taken": 28.675103902816772,
+          "expected": "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period. The city was built near the confluence of these two rivers.",
+          "response": "The evidence supporting the theory that Lyranth was abandoned due to a severe drought includes archaeological discoveries and climate studies of the region. Archaeologists found that Lyranth was deserted around 1200 CE, coinciding with a period when the Azura river dried up completely between 1198-1205 CE, and the water level in the Crimson River dropped by 80% during the same timeframe. These findings suggest that a prolonged lack of water resources led to the abandonment of Lyranth.",
+          "match_details": {
+            "fact_matches": {
+              "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period.": true,
+              "The city was built near the confluence of these two rivers.": false
+            },
+            "fact_score": 0.5
+          }
+        },
+        "association_3": {
+          "correct": true,
+          "time_taken": 81.1413049697876,
+          "expected": "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals. Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.",
+          "response": "Monarch butterflies (Danaus plexippus) have a unique relationship with milkweed plants and their predators. \n\n1. Milkweed as Food Source: Monarch caterpillars exclusively feed on milkweed plants, which are the only type of food they consume during their larval stage. There are over 100 species of milkweed found in North America. The monarchs' preference for milkweed is crucial as it provides them with necessary nutrients for growth and development.\n\n2. Toxic Compounds: Milkweed contains cardiac glycosides, which are toxic to most animals, including birds that might eat the caterpillars or butterflies. These compounds are stored in the monarch's body as they feed on milkweed leaves.\n\n3. Predator Defense: This ingestion and storage of milkweed toxins make monarch butterflies distasteful to predators, providing a natural defense mechanism. Even if a bird or other animal were to eat a monarch, the toxic compounds could cause illness or death, thereby deterring potential predators from consuming more monarchs.\n\n4. Monarch Migration: This relationship between milkweed and toxins also plays a significant role in monarch migration. Adult female monarchs lay their eggs exclusively on milkweed plants because the toxins in their bodies will protect their offspring from predators during their vulnerable larval stage. The monarch's long-distance migration is a remarkable phenomenon, with some individuals traveling up to 3,000 miles each year between their breeding and overwintering grounds in Mexico or California.\n\nIn summary, the Monarch butterfly's life cycle is intricately connected to milkweed plants. The caterpillars rely on milkweed as a food source while simultaneously acquiring defensive toxins that protect them from predators. These toxins also aid in the survival of subsequent generations during their migration, highlighting an essential symbiotic relationship between monarchs and milkweed.",
+          "match_details": {
+            "fact_matches": {
+              "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals.": true,
+              "Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.": true
+            },
+            "fact_score": 1.0
+          }
+        }
+      }
+    },
+    "20000": {
+      "accuracy": 0.6666666666666666,
+      "test_results": {
+        "association_1": {
+          "correct": true,
+          "time_taken": 33.337767362594604,
+          "expected": "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr. James Wilson previously worked in the Artificial Intelligence Lab.",
+          "response": "Company Alpha's first product, the DataMind 1000, was developed using a revolutionary neural network algorithm that its founder, Dr. James Wilson, had previously worked on at MIT's Artificial Intelligence Lab before starting the company in 1985. This indicates that Dr. Wilson's expertise and experience in AI research directly influenced the creation of his company's groundbreaking first product.",
+          "match_details": {
+            "fact_matches": {
+              "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr.": true,
+              "James Wilson previously worked in the Artificial Intelligence Lab.": true
+            },
+            "fact_score": 1.0
+          }
+        },
+        "association_2": {
+          "correct": false,
+          "time_taken": 36.29483699798584,
+          "expected": "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period. The city was built near the confluence of these two rivers.",
+          "response": "The evidence supporting the theory that Lyranth was abandoned due to a severe drought includes archaeological discoveries indicating the city's desertion around 1200 CE, as well as climate studies showing that both the Azura and Crimson rivers experienced significant water level drops during this period (Azura drying up completely between 1198-1205 CE, and the Crimson river's water level dropping by 80%).",
+          "match_details": {
+            "fact_matches": {
+              "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period.": true,
+              "The city was built near the confluence of these two rivers.": false
+            },
+            "fact_score": 0.5
+          }
+        },
+        "association_3": {
+          "correct": true,
+          "time_taken": 67.46836709976196,
+          "expected": "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals. Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.",
+          "response": "Monarch butterflies (Danaus plexippus) have a unique relationship with milkweed plants and predators. The larvae of Monarch butterflies feed exclusively on milkweed, making it crucial for their survival during the early stages of life. Milkweed contains cardiac glycosides, which are toxic to most animals. When monarch caterpillars consume milkweed, they absorb these toxins and store them in their bodies as adults. This makes them distasteful or even poisonous to predators.\n\nThis adaptation provides Monarch butterflies with a form of protection during their migratory journeys. Their bright orange and black wings act as warning signals to potential predators, informing them that they are not a suitable food source due to their toxicity. This phenomenon is known as aposematic coloration.\n\nThe Monarch butterfly's life cycle revolves around this symbiotic relationship with milkweed and the protection it provides against predators. The adults migrate over long distances, sometimes up to 3,000 miles each year, relying on this defense mechanism to ensure their survival in various habitats.",
+          "match_details": {
+            "fact_matches": {
+              "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals.": true,
+              "Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.": true
+            },
+            "fact_score": 1.0
+          }
+        }
+      }
+    },
+    "40000": {
+      "accuracy": 0.6666666666666666,
+      "test_results": {
+        "association_1": {
+          "correct": true,
+          "time_taken": 65.82417225837708,
+          "expected": "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr. James Wilson previously worked in the Artificial Intelligence Lab.",
+          "response": "The DataMind 1000, Company Alpha's first product released in 1987, utilized a revolutionary neural network algorithm developed at MIT. This technology ties directly to Dr. James Wilson's past experience, as he previously worked at MIT's Artificial Intelligence Lab before founding Company Alpha in 1985. Thus, the company's first product reflects his expertise and background in AI research.",
+          "match_details": {
+            "fact_matches": {
+              "Company Alpha's first product, the DataMind 1000, used a revolutionary neural network algorithm developed at MIT, where the founder Dr.": true,
+              "James Wilson previously worked in the Artificial Intelligence Lab.": true
+            },
+            "fact_score": 1.0
+          }
+        },
+        "association_2": {
+          "correct": false,
+          "time_taken": 46.32022023200989,
+          "expected": "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period. The city was built near the confluence of these two rivers.",
+          "response": "The evidence supporting the theory that Lyranth was abandoned due to severe drought includes archaeological findings indicating that the city was deserted around 1200 CE. Additionally, climate studies have shown that both the Azura and Crimson rivers experienced significant water level drops during this period\u2014the Azura's water level dropped by approximately 80% between 1198-1205 CE, while the Crimson river's water level decreased by around 80%. These changes in water availability would have made it challenging for Lyranth to sustain its population and agriculture, ultimately leading to its abandonment.",
+          "match_details": {
+            "fact_matches": {
+              "Lyranth was abandoned around 1200 CE due to a severe drought, which is supported by climate studies showing that the Azura river completely dried up between 1198-1205 CE and the Crimson river's water level dropped by 80% during the same period.": true,
+              "The city was built near the confluence of these two rivers.": false
+            },
+            "fact_score": 0.5
+          }
+        },
+        "association_3": {
+          "correct": true,
+          "time_taken": 83.80051350593567,
+          "expected": "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals. Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.",
+          "response": "Monarch butterflies (Danaus plexippus) have a unique relationship with milkweed plants and their toxins that serves as a defense mechanism against predators. Monarch caterpillars exclusively feed on milkweed, consuming its leaves and storing the cardiac glycosides, a type of toxic compound, within their bodies. As they metamorphose into butterflies, these toxins remain in their tissues, making them unpalatable or even poisonous to most predators.\n\nThe milkweed plant itself is not harmed by this process; it has evolved alongside the Monarch butterfly to protect its leaves with cardiac glycosides, which deter herbivores from consuming too much of it. This relationship benefits both parties: the Monarch caterpillars and adults gain a formidable defense mechanism, while milkweed plants continue to thrive and reproduce without excessive damage from insect pests.\n\nIt's important to note that Monarch butterflies are not immune to predation entirely. Some birds, such as the European Robin, have developed resistance to monarch toxins and can consume them without suffering harm. However, overall, this mutualistic relationship between Monarchs and milkweed plants plays a crucial role in their survival and distribution across North America.",
+          "match_details": {
+            "fact_matches": {
+              "Monarch caterpillars exclusively feed on milkweed plants, which contain cardiac glycosides that are toxic to most animals.": true,
+              "Monarchs have evolved to store these toxins in their bodies, making them poisonous to predators.": true
+            },
+            "fact_score": 1.0
+          }
+        }
+      }
+    }
+  }
+}

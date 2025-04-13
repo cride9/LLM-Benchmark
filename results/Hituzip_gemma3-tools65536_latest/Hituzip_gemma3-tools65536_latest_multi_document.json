@@ -1,0 +1,559 @@
+{
+  "test_name": "multi_document",
+  "model": "Hituzip/gemma3-tools65536:latest",
+  "timestamp": "2025-04-12T19:00:12.319399",
+  "results_by_length": {
+    "10000": {
+      "average_score": 0.19791666666666666,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.16666666666666666,
+          "time_taken": 20.216790437698364,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents:\n\n**1. Renewable Energy:**\n\n*   **Rapid Growth:** Renewable energy sources (solar, wind, hydropower, biomass, tidal) are experiencing significant growth and increasing capacity worldwide.\n*   **Technological Advancements:** Costs for solar photovoltaic modules have dramatically decreased, making them more competitive.\n*   **Key Projects:** The Artemis program aims to return humans to the Moon, while the Parker Solar Probe is designed to study the Sun\u2019s corona.\n*   **Emerging Technologies:** Floating solar farms, virtual power plants, and building-integrated photovoltaics are gaining traction.\n*   **Long-Term Goal:** The International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050.\n\n**2. Artificial Intelligence:**\n\n*   **Historical Context:** AI was coined in 1956, with periods of \u201cAI winters\u201d (reduced funding).\n*   **Key Developments:** Deep Blue defeated Garry Kasparov in chess, and AlphaGo defeated Lee Sedol in Go.\n*   **Current Focus:** Explainable AI (XAI) is a growing area of research, and generative AI is creating new content.\n*   **Core Concepts:** Machine learning, federated learning, and the Turing Test are fundamental to the field.\n*   **Ethical Concerns:** Bias, privacy, accountability, and job displacement are significant ethical considerations.\n\n**3. Space Exploration:**\n\n*   **Historical Milestones:** Yuri Gagarin was the first human in space, and Neil Armstrong was the first to walk on the Moon.\n*   **Current Projects:** The Artemis program aims to return humans to the Moon, and the Parker Solar Probe is studying the Sun.\n*   **Key Technologies:** Reusable rocket technology is reducing the cost of space access.\n*   **Exploration Targets:** Exoplanets (planets outside our solar system) and ocean worlds like Europa and Enceladus are being investigated for potential extraterrestrial life.\n*   **Major Projects:** The James Webb Space Telescope is providing unprecedented views of the universe.\n\n\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular document?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Ethical concerns include bias in AI systems and job displacement",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.42857142857142855,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.42857142857142855,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.25,
+              "Ethical concerns include bias in AI systems and job displacement": 0.6666666666666666,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.1111111111111111,
+              "AI regulation is being developed in various countries": 0.2,
+              "Private companies have significantly reduced the cost of space launches": 0.42857142857142855,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.0,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.75,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 12,
+            "points_mentioned_count": 2,
+            "recall_score": 0.16666666666666666
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.25,
+          "time_taken": 16.35550594329834,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents:\n\n**Renewable Energy:**\n\n*   **Diverse Sources:** Renewable energy utilizes various sources like geothermal, solar, wind, and biomass.\n*   **Technological Advancements:** Significant progress has been made in renewable technologies, particularly solar and wind power, with dramatic cost reductions.\n*   **Key Players:** Denmark is highlighted as a leader in renewable energy adoption (over 50% wind/solar).\n*   **Emerging Technologies:**  Floating solar farms and building-integrated photovoltaics (BIPV) are gaining traction.\n*   **Storage is Crucial:** Energy storage (batteries) is essential for managing the intermittent nature of renewable sources.\n*   **Large-Scale Potential:** The International Renewable Energy Agency (IRENA) projects that renewables could supply 86% of global power demand by 2050.\n\n**Artificial Intelligence:**\n\n*   **Origins & Definition:** AI was coined in 1956, and focuses on creating systems that mimic human intelligence.\n*   **Historical Context:**  The \u201cAI winter\u201d refers to periods of reduced funding and interest.\n*   **Key Achievements:** Deep Blue\u2019s victory over Garry Kasparov in 1997 is a landmark achievement.\n*   **Current Research:**  AI alignment research is focused on ensuring AI systems align with human values.\n*   **Emerging Technologies:** Generative AI is creating new content, and edge AI is processing data locally.\n*   **Ethical Concerns:**  Bias, privacy, accountability, and job displacement are significant ethical considerations.\n*   **The Turing Test:** Alan Turing's test evaluates a machine's ability to exhibit intelligent behavior.\n\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps compare and contrast the two fields?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Ethical concerns include bias in AI systems and job displacement"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.7142857142857143,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.25,
+              "Ethical concerns include bias in AI systems and job displacement": 0.8333333333333334,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.125,
+          "time_taken": 16.41792941093445,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents regarding Renewable Energy and Space Exploration:\n\n**Renewable Energy:**\n\n*   **Rapid Growth:** Renewable energy sources (solar, wind, hydropower, biomass, tidal) are experiencing significant growth globally.\n*   **Solar Dominance:** Solar photovoltaic (PV) technology is the fastest-growing renewable energy source.\n*   **Technological Advancements:** Innovations like floating solar farms, building-integrated photovoltaics (BIPV), and virtual power plants are improving efficiency and integration.\n*   **Storage is Crucial:** Energy storage (batteries) is vital for managing the intermittent nature of renewable sources.\n*   **Ambitious Goals:** The International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050.\n*   **Diverse Exploration:** Space exploration is being driven by a diverse range of projects, including the Parker Solar Probe, the Gateway lunar outpost, and the James Webb Space Telescope.\n\n**Space Exploration:**\n\n*   **Historical Milestones:** Key achievements include the first human landing on the Moon (Apollo 11), the launch of the Voyager spacecraft (the furthest human-made object), and the ongoing operation of the International Space Station.\n*   **Technological Innovation:** Reusable rocket technology has dramatically reduced the cost of space access.\n*   **Scientific Discovery:** Space exploration is focused on diverse areas, including studying the Sun\u2019s corona, establishing a sustainable lunar presence, and searching for exoplanets and extraterrestrial life.\n*   **Large-Scale Projects:** Current projects include the James Webb Space Telescope, the Gateway lunar outpost, and the Parker Solar Probe.\n\n---\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular technology or project?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Government incentives have been crucial for renewable energy growth"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.6666666666666666,
+              "Private companies have significantly reduced the cost of space launches": 0.42857142857142855,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.0,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.5,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 1,
+            "recall_score": 0.125
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 18.10828685760498,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents:\n\n**Artificial Intelligence (AI)**\n\n*   **Historical Context:** The field of AI has evolved from early concepts (like Alan Turing\u2019s Turing Test) to modern machine learning and deep learning.\n*   **Key Developments:** Notable milestones include Deep Blue defeating Garry Kasparov in chess, the ongoing exploration of AI alignment to ensure beneficial outcomes, and the rise of generative AI.\n*   **Technological Advancements:** Important technologies include machine learning, deep learning, NLP (Natural Language Processing), and Explainable AI (XAI).  Reusable rocket technology has dramatically reduced the cost of space access.\n*   **Current Focus:** Current research focuses on exoplanet exploration, studying the sun\u2019s corona, and developing AI systems that can learn and adapt.\n\n**Space Exploration**\n\n*   **Significant Missions:** The documents highlight several key missions, including:\n    *   Voyager 1 (the most distant human-made object)\n    *   The Artemis program (aiming to return humans to the Moon)\n    *   The International Space Station (continuously occupied since 2000)\n    *   Mars rovers (Sojourner, Spirit, Opportunity, Curiosity, Perseverance)\n    *   The Parker Solar Probe (studying the Sun\u2019s corona)\n    *   The Gateway (a planned lunar orbital outpost)\n*   **Technological Innovations:** Reusable rocket technology is a key factor in reducing the cost of space access.\n*   **Current Research:**  Exoplanet exploration, studying the sun\u2019s corona, and the search for extraterrestrial life (including studying ocean worlds like Europa and Enceladus) are current areas of focus.\n*   **Observatories:** The James Webb Space Telescope and the Hubble Space Telescope are vital for astronomical observation.\n\n\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular mission or technology?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.625,
+              "Ethical concerns include bias in AI systems and job displacement": 0.3333333333333333,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.0,
+              "Private companies have significantly reduced the cost of space launches": 0.42857142857142855,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.5714285714285714,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        }
+      }
+    },
+    "30000": {
+      "average_score": 0.15625,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.25,
+          "time_taken": 40.36536884307861,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents, categorized for clarity:\n\n**1. Renewable Energy:**\n\n*   **Rapid Growth:** The document highlights a significant and accelerating trend in renewable energy adoption \u2013 particularly solar and wind power.\n*   **Technological Advancements:**  It emphasizes the decreasing cost of solar photovoltaic (PV) technology.\n*   **Key Technologies:**  It mentions specific technologies like wind turbines, solar panels, and the emerging role of green hydrogen.\n*   **Supporting Infrastructure:**  The need for energy storage (batteries) is stressed to address the intermittent nature of renewable sources.\n*   **Efficiency:** Wind turbines are noted for their high conversion efficiency (up to 60%).\n*   **Overall Projection:** Renewable energy is projected to supply 86% of global power demand by 2050.\n\n**2. Artificial Intelligence:**\n\n*   **NeuroMorphic Computing:**  A focus on designing hardware that mimics the human brain\u2019s structure and function.\n*   **Ethical Concerns:**  The document raises critical ethical considerations surrounding AI, including bias, privacy, accountability, and job displacement.\n*   **Generative AI:**  The rise of AI systems capable of creating new content (text, images, music, video).\n*   **Computer Vision:**  AI\u2019s ability to interpret and make decisions based on visual data.\n*   **Federated Learning:**  A method of training AI models across multiple devices while preserving data privacy.\n*   **Historical Context:**  It references \u201cAI winters\u201d \u2013 periods of reduced funding and interest in AI research.\n*   **Alignment Research:** The importance of ensuring AI systems align with human values and intentions.\n\n**3. Space Exploration:**\n\n*   **The Gateway:**  A planned lunar orbital outpost to serve as a staging point for missions to the Moon and Mars.\n*   **Space Debris:**  A growing threat to space operations due to defunct satellites and mission-related debris.\n*   **Spacecraft:**  Highlights the Parker Solar Probe\u2019s mission to study the Sun\u2019s corona.\n*   **Key Missions:**  References the Voyager 1 spacecraft and the Apollo 11 mission.\n*   **Exoplanet Research:**  The search for planets outside our solar system (exoplanets), particularly those within habitable zones.\n*   **Ocean Worlds:**  The exploration of ocean worlds like Europa and Enceladus as potential locations for extraterrestrial life.\n*   **International Collaboration:** The International Space Station as a continuous human presence in space.\n\n\n\nDo you want me to elaborate on any of these points, or perhaps focus on a specific area (e.g., a deeper dive into the ethical concerns of AI)?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.7142857142857143,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.5,
+              "Ethical concerns include bias in AI systems and job displacement": 0.8333333333333334,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.0,
+              "Private companies have significantly reduced the cost of space launches": 0.42857142857142855,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.5714285714285714,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.75,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 12,
+            "points_mentioned_count": 3,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.125,
+          "time_taken": 33.6925585269928,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents, focusing on Renewable Energy and Artificial Intelligence:\n\n**Renewable Energy:**\n\n*   **Diverse Approaches:** The documents highlight a variety of approaches to renewable energy, including neuro-morphic computing (mimicking the human brain for efficiency) and integrating solar power.\n*   **Construction & Plot:** The author emphasizes that a well-constructed plot is more important than a flawless one.\n*   **Specific Technologies:** The text mentions specific technologies like tidal energy, building-integrated photovoltaics (BIPV), and wind turbines.\n*   **Denmark's Success:** Denmark is presented as a successful example of high renewable energy adoption (over 50% from wind and solar).\n*   **Energy Storage:** The importance of energy storage technologies (like batteries) is stressed for managing the intermittent nature of renewable sources.\n\n**Artificial Intelligence:**\n\n*   **Diverse Applications:** AI is presented as having applications beyond just renewable energy, including generative AI (creating content) and computer vision.\n*   **Edge AI:** The concept of \"edge AI\" \u2013 processing data locally \u2013 is introduced to reduce latency and privacy concerns.\n*   **Explainable AI (XAI):** The need for AI systems to be understandable to humans is highlighted through the concept of Explainable AI (XAI).\n*   **NLP:** Natural Language Processing (NLP) is mentioned as a key component of AI.\n*   **Historical Context:** The document references the \"AI winter\" periods of reduced funding and interest in AI research.\n\n**Overall Connection:**\n\nThe documents suggest a potential future where AI plays a crucial role in optimizing and managing renewable energy systems, particularly in areas like forecasting, grid management, and resource allocation.\n\n---\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular technology or application?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Deep learning has revolutionized computer vision and natural language processing"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.625,
+              "Ethical concerns include bias in AI systems and job displacement": 0.3333333333333333,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.0
+            },
+            "total_points": 8,
+            "points_mentioned_count": 1,
+            "recall_score": 0.125
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.0,
+          "time_taken": 33.17880392074585,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided text regarding renewable energy and space exploration:\n\n**Renewable Energy:**\n\n*   **Jane Austen\u2019s *Pride and Prejudice*** is considered by the author to be the most perfect of her works, due to its masterful construction and character development.\n*   The text emphasizes that construction isn't the *most* important quality in a novel; character and dialogue are more crucial.\n*   The author highlights the naturalness and subtlety of *Pride and Prejudice*'s plot, contrasting it with potentially over-engineered plots.\n*   The text praises the book\u2019s realistic portrayal of events and characters, particularly the handling of the Lydia/Wickham storyline.\n*   It notes the importance of diverse elements in a novel, beyond just a well-built plot.\n\n**Space Exploration:**\n\n*   The document discusses ongoing efforts in space exploration, including:\n    *   The Artemis program aims to return humans to the Moon and establish sustainable lunar exploration by 2025.\n    *   Mars rovers (Sojourner, Spirit, Opportunity, Curiosity, Perseverance) are exploring the Martian surface.\n    *   The James Webb Space Telescope is the largest and most powerful space telescope ever built.\n    *   The Parker Solar Probe is designed to study the Sun's corona by flying closer to the Sun than any previous spacecraft.\n\n**Overall:**\n\nThe text presents a blend of literary analysis (regarding Austen\u2019s novel) and an overview of current advancements in space exploration technologies and missions. It emphasizes the importance of diverse elements and realistic storytelling in both contexts.\n\nDo you want me to elaborate on any specific aspect or provide more detail about a particular topic?",
+          "evaluation_details": {
+            "points_mentioned": [],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.14285714285714285,
+              "Energy storage remains a significant challenge for renewable adoption": 0.2857142857142857,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Private companies have significantly reduced the cost of space launches": 0.14285714285714285,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.2857142857142857,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.0,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 0,
+            "recall_score": 0.0
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 35.22552132606506,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents regarding Artificial Intelligence and Space Exploration:\n\n**Artificial Intelligence (AI):**\n\n*   **Historical Context:** AI research began in the mid-20th century, with early efforts focused on mimicking human intelligence.\n*   **Construction vs. Other Gifts:** The document emphasizes that a brilliant plot alone isn't enough in a novel; masterful character development, dialogue, and emotional depth are far more valuable.\n*   **Character-Driven Stories:** The author argues that a truly great novel relies on compelling characters and realistic dialogue, not just a clever plot.\n*   **Potential for Performance:** The author suggests that a novel with a brilliant plot but poorly developed characters would be like a play performed by puppets.\n\n**Space Exploration:**\n\n*   **The Gateway:** A planned lunar orbital outpost is being developed as a staging point for future lunar and Martian missions.\n*   **Space Debris:** A significant threat to space operations is the growing accumulation of defunct satellites and debris.\n*   **SpaceX\u2019s Achievement:** SpaceX successfully sent humans to the International Space Station in 2020, marking a private company\u2019s first human spaceflight.\n*   **Exoplanets:** There are over 5,000 confirmed exoplanets (planets orbiting other stars).\n*   **Parker Solar Probe:** This probe is designed to study the Sun\u2019s corona by flying closer to the Sun than any previous spacecraft.\n*   **Reusable Rocket Technology:** Has dramatically reduced the cost of accessing space.\n*   **Hubble Space Telescope:** Has generated a vast amount of data, contributing significantly to our understanding of the universe.\n*   **Yuri Gagarin:** The first human in space.\n\n---\n\nDo you want me to elaborate on any of these points, or perhaps focus on a specific aspect (e.g., the challenges of space debris, or the details of the Gateway project)?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Private companies have significantly reduced the cost of space launches",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "points_missed": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.0,
+              "Ethical concerns include bias in AI systems and job displacement": 0.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.4,
+              "Private companies have significantly reduced the cost of space launches": 0.7142857142857143,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.42857142857142855,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.25,
+              "Space telescopes have revolutionized our understanding of the universe": 0.6
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        }
+      }
+    },
+    "60000": {
+      "average_score": 0.14583333333333331,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.3333333333333333,
+          "time_taken": 106.0928041934967,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents, categorized for clarity:\n\n**1. Renewable Energy:**\n\n*   **Rapid Growth & Technological Advancements:** The renewable energy sector is experiencing significant growth, driven by technological advancements (solar PV, wind turbines).\n*   **Cost Reduction:** The cost of renewable energy technologies (particularly solar PV) has dramatically decreased \u2013 approximately 90% reduction in the last decade.\n*   **Diverse Technologies:** Includes solar, wind, hydropower, biomass, and geothermal energy.\n*   **Emerging Technologies:**  Includes \u201cspace-based solar power\u201d and \u201cfloating solar farms.\u201d\n*   **Key Players:**  SpaceX is a private company leading in space-based solar power.\n*   **Efficiency:** Wind turbines can convert up to 60% of wind energy, compared to 35-40% for fossil fuel plants.\n*   **Integration:** Energy storage technologies (batteries) are crucial for managing the intermittent nature of renewable sources. Denmark generates over 50% of its electricity from wind and solar.\n*   **Microcosm:** Miss Austen\u2019s work can be seen as a microcosm of the world, and her ability to capture human nature is comparable to the skill of a miniature painter.\n\n**2. Artificial Intelligence:**\n\n*   **Historical Context:** The \u201cAI winter\u201d refers to periods of reduced funding and interest in AI research.\n*   **Key Achievements:**  Deep Blue defeated Garry Kasparov in chess, and AlphaGo defeated world champion Lee Sedol in Go.\n*   **Emerging Technologies:**  Explainable AI (XAI) focuses on making AI decisions understandable to humans.\n*   **Natural Language Processing (NLP):** Enables computers to understand and generate human language.\n*   **Edge AI:** Processes data locally on devices, reducing latency and privacy concerns.\n*   **Federated Learning:** Allows models to be trained across multiple devices while keeping data localized.\n*   **Core Concepts:**  AI alignment research aims to ensure AI systems act in accordance with human values.\n\n**3. Space Exploration:**\n\n*   **Exoplanets:**  Over 5,000 confirmed exoplanets have been discovered.\n*   **Hubble Space Telescope:**  Has made over 1.4 million observations and generated more than 150 terabytes of data.\n*   **Artemis Program:** Aims to return humans to the Moon and establish sustainable lunar exploration by 2025.\n*   **Space Debris:** A growing threat to space operations.\n*   **Reusable Rocket Technology:** Has significantly reduced the cost of access to space.\n*   **Key Missions:** The Voyager 1 spacecraft is the most distant human-made object from Earth. Parker Solar Probe is designed to study the Sun\u2019s corona.\n*   **Space-Based Solar Power:** SpaceX is leading the development of this technology.\n*   **Gateway:** A planned lunar orbital outpost.\n*   **Search for Extraterrestrial Life:** Focuses on habitable zones around stars and ocean worlds like Europa and Enceladus.\n*   **Mars Rovers:** Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored the Martian surface.\n\n\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps organize them in a different way (e.g., by technology type)?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Private companies have significantly reduced the cost of space launches",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.5714285714285714,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.6666666666666666,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.75,
+              "Ethical concerns include bias in AI systems and job displacement": 0.5,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.4444444444444444,
+              "AI regulation is being developed in various countries": 0.0,
+              "Private companies have significantly reduced the cost of space launches": 0.7142857142857143,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.5714285714285714,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 12,
+            "points_mentioned_count": 4,
+            "recall_score": 0.3333333333333333
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.25,
+          "time_taken": 103.06432819366455,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents about Renewable Energy and Artificial Intelligence:\n\n**Renewable Energy \u2013 Key Takeaways:**\n\n*   **Rapid Growth & Technological Advancements:** The renewable energy sector is experiencing significant growth, driven by technological advancements, particularly in solar and wind power.\n*   **Efficiency Improvements:** Solar photovoltaic (PV) module costs have dramatically decreased (around 90% reduction since 2010), increasing efficiency.\n*   **Diverse Technologies:** The sector encompasses a range of technologies, including solar, wind, hydro, biomass, and geothermal.\n*   **System Integration:**  There\u2019s a growing focus on integrating renewable energy sources into existing grids, including energy storage solutions (batteries) to address intermittency.\n*   **Smart Grid & Microgrids:** The development of smart grids and microgrids is crucial for managing the variable output of renewable sources.\n*   **Emerging Technologies:**  Floating solar farms, building-integrated photovoltaics (BIPV), and advanced energy storage are gaining traction.\n*   **Significant Employment:** The renewable energy sector employs over 11.5 million people globally.\n\n**Artificial Intelligence \u2013 Key Takeaways:**\n\n*   **Historical Cycles:** The field of AI has experienced \u201cAI winters\u201d \u2013 periods of reduced funding and interest.\n*   **Key Achievements:** Notable milestones include AlphaGo\u2019s victory over a Go champion and Deep Blue\u2019s defeat of Garry Kasparov in chess.\n*   **Core Technologies:** Natural Language Processing (NLP) enables computers to understand and generate human language.\n*   **Edge AI:** Processing data locally on devices (Edge AI) reduces latency and enhances privacy.\n*   **Federated Learning:** Allows models to be trained across multiple devices without sharing data.\n*   **AI Alignment:** Research focuses on ensuring AI systems align with human values and intentions.\n*   **Diverse Applications:** AI is being applied across various domains, including healthcare, finance, and transportation.\n\n**Overlapping Themes & Connections:**\n\n*   **AI for Optimization:** AI is increasingly being used to optimize the performance of renewable energy systems, such as predicting energy production from solar and wind farms.\n*   **Data-Driven Decisions:** Both fields rely heavily on data analysis and modeling.\n\n---\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular technology or application?",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.6666666666666666,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.75,
+              "Ethical concerns include bias in AI systems and job displacement": 0.3333333333333333,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.3333333333333333,
+              "AI regulation is being developed in various countries": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.0,
+          "time_taken": 103.32578325271606,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents regarding Renewable Energy and Space Exploration:\n\n**Renewable Energy \u2013 Key Points:**\n\n*   **Rapid Growth & Technological Advancement:** The renewable energy sector is experiencing significant growth, driven by technological advancements and decreasing costs.\n*   **Diverse Technologies:**  A wide range of renewable energy technologies are available, including solar, wind, hydropower, and biomass.\n*   **Efficiency & Scale:**  Improvements in efficiency and the increasing scale of renewable energy projects are contributing to their viability.\n*   **Historical Context:** The documents highlight the evolution of renewable energy, from early concepts to modern implementations.\n*   **Specific Examples:** The documents showcase successful implementations like wind turbines, solar farms, and the use of renewable energy in various sectors.\n*   **Future Potential:** The documents emphasize the potential for renewable energy to meet global energy demands.\n\n**Space Exploration \u2013 Key Points:**\n\n*   **Historical Milestones:** The documents trace the history of space exploration, beginning with the Apollo missions and continuing with current endeavors.\n*   **Technological Advancements:** Space exploration relies on continuous technological advancements in areas like rocketry, spacecraft design, and data analysis.\n*   **Specific Missions & Projects:** The documents mention key missions such as Apollo 11, the Voyager probes, and the Artemis program.\n*   **Space Debris:** The growing concern about space debris and its potential impact on space operations is highlighted.\n*   **Reusable Rocket Technology:** The development of reusable rocket technology is presented as a key factor in reducing the cost of space access.\n*   **Current and Future Projects:** The documents reference ongoing projects like the James Webb Space Telescope and the Gateway lunar outpost.\n\n**Overlapping Themes:**\n\n*   **Innovation & Technology:** Both fields are heavily reliant on innovation and technological breakthroughs.\n*   **Sustainability (Renewable Energy):** The concept of sustainability is central to renewable energy, while space exploration is increasingly focused on long-term, sustainable operations in space.\n\n**Overall Impression:**\n\nThe documents paint a picture of a dynamic landscape where technological advancements are driving progress in both renewable energy and space exploration, with significant potential for future development.\n\n---\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular technology or mission mentioned in the documents?",
+          "evaluation_details": {
+            "points_mentioned": [],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.42857142857142855,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Private companies have significantly reduced the cost of space launches": 0.2857142857142857,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.2857142857142857,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.125,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 0,
+            "recall_score": 0.0
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.0,
+          "time_taken": 103.12159204483032,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Okay, here\u2019s a summary of the key points from the provided documents about Artificial Intelligence and Space Exploration:\n\n**Artificial Intelligence (AI)**\n\n*   **Historical Context:** The evolution of AI is linked to figures like John McCarthy and the development of early AI systems.\n*   **Characterization:** AI is defined as creating systems capable of performing tasks requiring human intelligence.\n*   **Key Qualities:**  AI is characterized by its ability to mimic human intelligence, including aspects like humor, character creation, and strategic thinking.\n*   **Comparison to Other Systems:** AI is often compared to other systems, like those of Addison or Meissonier, emphasizing its ability to create a complete impression through a multitude of subtle elements.\n*   **Swiftian Qualities:** AI, particularly in the context of character development, shares similarities with the work of Jonathan Swift, characterized by a sharp, critical, and often satirical approach.\n*   **Evolution of AI:** The development of AI is linked to figures like John McCarthy and the development of early AI systems.\n\n**Space Exploration**\n\n*   **Hubble Space Telescope:** The Hubble Space Telescope has made over 1.4 million observations and generated more than 150 terabytes of data.\n*   **Artemis Program:** The Artemis program aims to return humans to the Moon and establish sustainable lunar exploration by 2025.\n*   **Apollo 11:** The Apollo 11 mission successfully landed the first humans on the Moon in 1969.\n*   **Voyager 1:** The Voyager 1 spacecraft is the most distant human-made object from Earth.\n*   **Space Debris:**  Space debris poses a growing threat to space operations.\n*   **Parker Solar Probe:** The Parker Solar Probe is designed to study the Sun\u2019s corona.\n*   **Reusable Rocket Technology:**  Has significantly reduced the cost of access to space.\n*   **International Space Station:** The ISS has been continuously occupied since 2000.\n*   **James Webb Space Telescope:** The James Webb Space Telescope, launched in 2021, is the largest and most powerful space telescope ever built.\n\n**Overall:** The documents highlight a range of advancements and ongoing efforts in both AI and space exploration, showcasing both technological achievements and the challenges associated with these fields.\n\n---\n\nDo you want me to elaborate on any specific aspect of these summaries, or perhaps focus on a particular comparison made within the documents?",
+          "evaluation_details": {
+            "points_mentioned": [],
+            "points_missed": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.0,
+              "Ethical concerns include bias in AI systems and job displacement": 0.16666666666666666,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.3333333333333333,
+              "AI regulation is being developed in various countries": 0.0,
+              "Private companies have significantly reduced the cost of space launches": 0.5714285714285714,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.14285714285714285,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.125,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 0,
+            "recall_score": 0.0
+          }
+        }
+      }
+    }
+  }
+}

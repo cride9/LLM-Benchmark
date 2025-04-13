@@ -1,0 +1,562 @@
+{
+  "test_name": "multi_document",
+  "model": "CustomModel:latest",
+  "timestamp": "2025-04-12T17:38:30.164918",
+  "results_by_length": {
+    "10000": {
+      "average_score": 0.27083333333333337,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.5833333333333334,
+          "time_taken": 49.06969118118286,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Renewable energy sources are gaining popularity worldwide for their potential to reduce greenhouse gas emissions and meet global energy demands efficiently. Floating solar farms on reservoirs or lakes maximize land use by utilizing sunlight without degrading the primary water body, while geothermal energy harnesses heat from Earth's core to provide continuous baseload power. Tidal energy captures the natural rise and fall of ocean tides for electricity generation.\n\nSolar power capacity has increased tenfold in recent years due to advancements in solar photovoltaic (PV) technology, with countries like Denmark generating over 50% of their electricity from wind and solar power in 2020. Building-integrated PV modules have become more common, integrating solar cells into building materials for seamless integration into the built environment.\n\nWind turbines convert up to 60% of wind energy into electrical power, outperforming fossil fuel plants in terms of efficiency. Biomass energy is derived from organic materials such as plants, agricultural residues, and waste, while green hydrogen produced using renewable electricity is emerging as an important energy carrier for sectors challenging electrification.\n\nThe International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050, with solar photovoltaic capacity growing to more than 130 GW per year since 2017. Wind and solar are the fastest-growing sources of new capacity in recent years.\n\nEnergy storage technologies like batteries help manage renewable energy's intermittency by storing excess generation for later use, reducing dependence on fossil fuel power plants. Renewable energy jobs worldwide increased from 11.5 million in 2019 to over 24 million in 2020, with solar photovoltaics being the largest employer. Virtual power plants aggregate distributed energy resources for grid services and reliability.\n\nBiomass energy is derived from organic materials such as plants, agricultural residues, and waste, while green hydrogen produced using renewable electricity can be used as fuel or converted into chemicals like methanol or ammonia. Biomass technology has been successfully demonstrated through projects like the Bardmoor Biogas Plant in Hungary, which produces up to 10 MW of electricity and 27 tons of methane per day from organic waste.\n\nSpace exploration is a continuous endeavor focused on discovering habitable exoplanets for extraterrestrial life. The Voyager 1 spacecraft became the most distant human-made object from Earth in 2012, while Mars rovers have explored its surface since 1997. SpaceX's first private crewed mission to the International Space Station was launched in 2020. Exoplanets like Europa and Enceladus are of particular interest for their potential habitability.\n\nThe Apollo 11 mission landed the first humans on the Moon on July 20, 1969, while NASA's Hubble Space Telescope has made over one million observations since launch in 1990 and provided more than 150 terabytes of data. The International Space Station (ISS) has been continuously occupied since November 2000, with the Gateway spacecraft serving as a lunar outpost for future Mars missions.\n\nReusable rocket technology, including SpaceX's Falcon 9 and Starship models, significantly decreases the cost of accessing space in recent years. Reusable rocket technology has enabled the Apollo program to land American astronauts on the Moon, while the James Webb Space Telescope is the most powerful currently operational telescope.\n\nSpace exploration technologies are continually advancing, from advanced propulsion systems like ion engines and nuclear thermal rockets to in-situ resource utilization techniques for life support and other mission objectives. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus, with Mars rovers including Sojourner, Spirit, Opportunity, Curiosity, and Perseverance exploring the Martian surface.\n\nThe Artemis program aims to return humans to the Moon by 2025 as part of a broader goal to establish sustainable lunar exploration and scientific research. The Parker Solar Probe is an ambitious mission designed to study the Sun's corona, while space debris remains a growing concern for space operations due to defunct satellites and mission-related objects that pose risks of collisions or accidental re-entry.\n\nThe search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus, with the Gateway being a planned lunar orbital outpost serving as a staging point for future lunar and Mars missions. The Turing Test evaluates machines' ability to exhibit intelligent behavior by human standards, while deep learning techniques are used in AI research to train complex models capable of understanding and generating natural language text. Edge computing enables local data processing on devices rather than transmitting it to centralized servers for analysis, minimizing latency and privacy concerns.\n\nEthical concerns in artificial intelligence include bias, privacy, accountability, job displacement, and fairness. XAI is a subfield of AI that aims to make AI systems' decisions understandable to humans through explainable methods. Reinforcement learning was employed to train AlphaGo, which defeated world champion Go player Lee Sedol in 2016 using this machine learning technique.\n\nThe term \"artificial intelligence\" was coined by John McCarthy in 1956 and refers to systems capable of human-like intellectual behavior through data processing without explicit programming. The AI winter, a period marked by reduced funding for AI research in the 1970s and early 1980s, is followed by a resurgence driven by advancements in machine learning algorithms, hardware capabilities, and increasing investment in related fields.\n\nSpace exploration highlights humanity's curiosity about the cosmos and our place within it. Projects like NASA's Mars rovers have explored the Martian surface since 1997, while missions to Europa and Enceladus are ongoing or in development for future space exploration. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus, with Mars rovers including Sojourner, Spirit, Opportunity, Curiosity, and Perseverance exploring the Martian surface.\n\nThe term \"space\" encompasses a wide range of technologies and systems designed to support humanity's exploration and use of outer space, such as advanced propulsion systems, in-situ resource utilization techniques for life support, lunar outposts (Gateway), ambitious space missions like NASA's Artemis program and Parker Solar Probe, and continued development of technologies that enable sustainable long-term human presence on other celestial bodies.\n\nIn summary, renewable energy sources are becoming more prevalent worldwide due to technological advancements in solar PV, wind turbines, geothermal energy harnessing heat from Earth's core and tidal energy generation using ocean tides' natural rise and fall. Space exploration continues with the Artemis program aiming for return missions on other celestial bodies such as Mars by 2025, while projects like NASA's Hubble Space Telescope make significant contributions to scientific discoveries in cosmology, planetary science, and astrophysics. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds within our solar system, with missions including Mars rovers exploring the Martian surface since 1997 while ongoing efforts to send humans to Europa and Enceladus through spacecraft like NASA's JUICE (Jupiter Icy Moons Explorer) and Europa Clipper.\n\nSpace technology advancements include reusable rockets, in-situ resource utilization techniques for life support systems, ambitious missions with projects like NASA's Mars rovers and Artemis program aiming to establish sustainable lunar exploration and further expand human presence on other celestial bodies. Ethical concerns related to AI include bias, privacy, accountability, job displacement, and fairness. XAI focuses on making AI systems' decisions understandable to humans through explainable methods. Reinforcement learning was used in training AlphaGo, the first computer to defeat a world champion Go player Lee Sedol in 2016",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Government incentives have been crucial for renewable energy growth",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.7142857142857143,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.7142857142857143,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.75,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.5555555555555556,
+              "AI regulation is being developed in various countries": 0.4,
+              "Private companies have significantly reduced the cost of space launches": 0.7142857142857143,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.7142857142857143,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 1.0,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 12,
+            "points_mentioned_count": 7,
+            "recall_score": 0.5833333333333334
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.125,
+          "time_taken": 11.10787296295166,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "Renewable energy sources like wind, solar, geothermal, tidal, biomass, and hybrid systems have been increasing globally in terms of capacity over the past decade due to technological advancements and falling costs. Geothermal energy harnesses heat from the Earth's core for continuous baseload power, while building-integrated photovoltaics (BIPV) integrate solar cells into building materials. Wind turbines convert up to 60% of wind energy into electricity compared to fossil fuel plants which typically achieve 35-40% efficiency.\n\nBiomass energy is derived from organic materials such as plants, agricultural residues, and waste. Virtual power plants aggregate distributed energy resources for reliable grid services by managing intermittency in renewable sources like solar photovoltaics (PV). Renewable energy jobs worldwide reached 11.5 million in 2019 with solar PV being the largest employer.\n\nArtificial Intelligence (AI) encompasses machine learning, neuromorphic computing, explainable AI (XAI), and federated learning. Machine learning enables systems to learn from data without explicit programming; XAI focuses on making AI decisions understandable to humans; reinforcement learning was used to train AlphaGo. Edge AI processes local data processing rather than the cloud for latency reduction and privacy concerns.\n\nAI winter refers to periods of reduced funding and interest in artificial intelligence research, but it's also crucial to maintain progress and address ethical concerns like bias, privacy, accountability, job displacement, and fairness. Deep Blue, AlphaGo, and reinforcement learning are examples of AI advancements that have significantly impacted specific fields: chess-playing computers (Deep Blue), Go players' defeat by a computer (AlphaGo) in 2016, training RL models locally on devices for edge computing, etc.\n\nJane Austen's novel \"Pride and Prejudice\" includes discussions about personal love vs loving with allowance, reflecting the difference between these two concepts as applied to books by authors like Walt Whitman who emphasizes preference over conventional preferences. The Turing Test, proposed by Alan Turing in 1950, evaluates a machine's ability to exhibit intelligent behavior without explicit programming, and Deep Blue defeated world champion Go player Garry Kasparov in 1997 using RL.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Ethical concerns include bias in AI systems and job displacement"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.5714285714285714,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.42857142857142855,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.5,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 1,
+            "recall_score": 0.125
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.125,
+          "time_taken": 18.53392457962036,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "1. Renewable energy sources, such as solar power, wind turbines, tidal energy (from ocean tides), geothermal energy, and biomass energy, are increasingly being utilized to meet growing global electricity demand. Denmark is a notable example of a country that has successfully implemented large-scale renewable energy projects.\n\n2. Solar photovoltaic modules have become more affordable, decreasing by approximately 90% since 2010. Building-integrated photovoltaics (BIPV) integrate solar cells into building materials, further increasing the land use efficiency of these systems.\n\n3. Wind turbines can convert up to 60% of wind energy into electricity compared to fossil fuel plants which typically achieve around 40%. Biomass energy is derived from organic materials like plants and agricultural residues, with green hydrogen being an emerging key energy carrier for sectors difficult to electrify.\n\n4. The International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050. Solar photovoltaics are the largest employer in the energy sector, with solar PV systems generating over 11 million jobs worldwide as of 2019.\n\n5. Exoplanets have been identified, with several confirmed discoveries. The Apollo 11 mission landed the first humans on the Moon on July 20, 1969, and the Artemis program aims to return humans to the Moon by 2025 to establish sustainable lunar exploration.\n\n6. Space travel has advanced significantly with spacecraft like Voyager 1 reaching their maximum distance from Earth in 2018. Private companies such as SpaceX have also made significant strides, including sending humans to the International Space Station (ISS) and landing a rover on Mars.\n\n7. Reusable rocket technology has reduced the cost of accessing space in recent decades. The James Webb Space Telescope, launched in 2021, is one such example, with its size making it more powerful than previous telescopes while being significantly cheaper to build and operate.\n\n8. Exploration missions continue beyond Earth's moon. The Gateway lunar orbital outpost will serve as a staging point for future human and robotic missions to the Moon and Mars, facilitating long-term sustainable space exploration.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Private companies have significantly reduced the cost of space launches"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.42857142857142855,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.42857142857142855,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Private companies have significantly reduced the cost of space launches": 0.8571428571428571,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.2857142857142857,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.25,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 1,
+            "recall_score": 0.125
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 18.33355188369751,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "The document outlines several significant advancements in artificial intelligence (AI) and space exploration, each addressing specific aspects of these fields. \n\n1. **Artificial Intelligence:** The AI winter refers to periods when funding for AI research declined due to reduced interest from the public and private sectors. However, Explainable AI (XAI) emerged as a response to address concerns about AI decision-making's lack of transparency. This trend aims to make AI systems' processes understandable to humans.\n\n2. **Space Exploration:** The Voyager 1 spacecraft is the most distant human-made object from Earth, and it has been studying the outer reaches of our solar system since its launch in 1977. Meanwhile, Mars rovers like Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored various Martian surfaces for over two decades. SpaceX has also made significant strides with commercial space travel, becoming the first private company to send humans to the International Space Station in 2020.\n\n3. **Exoplanets:** Over 5,000 confirmed exoplanets have been discovered through ground-based surveys and by NASA's Kepler mission. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus.\n\n4. **Artificial Intelligence:** Deep Blue, a chess-playing computer developed by IBM in 1997, defeated world champion Garry Kasparov using reinforcement learning. The James Webb Space Telescope, launched in 2021, is the largest and most powerful space telescope ever built to study the Sun's corona.\n\n5. **Space Debris:** As humans continue exploring space, they encounter more waste from previous missions such as defunct satellites and debris left over from space exploration activities. This poses a growing threat to future space operations.\n\n6. **Search for Extraterrestrial Life:** The search focuses on habitable zones around stars and ocean worlds, with the James Webb Space Telescope designed to study these environments further.\n\nIn summary, AI has evolved significantly over time, particularly since the introduction of explainable AI, while space exploration has made substantial progress in understanding exoplanets and preparing for future missions. Despite some setbacks during the \"AI winter,\" developers continue to advance artificial intelligence technologies and explore new frontiers in space exploration with modern reusable rocket technology and advanced telescopes like JWST.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "points_missed": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.375,
+              "Ethical concerns include bias in AI systems and job displacement": 0.3333333333333333,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.1111111111111111,
+              "AI regulation is being developed in various countries": 0.4,
+              "Private companies have significantly reduced the cost of space launches": 0.5714285714285714,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.2857142857142857,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.6
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        }
+      }
+    },
+    "30000": {
+      "average_score": 0.2708333333333333,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.3333333333333333,
+          "time_taken": 64.27965974807739,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Renewable Energy:\n1. Biomass energy is derived from organic materials like plants and waste, with efficient storage technologies managing intermittency of renewable sources.\n2. Floating solar farms maximize land use efficiency in reservoirs or lakes by converting up to 60% of wind energy into electricity compared to fossil fuel plants' 35-40%.\n3. Virtual power plants aggregate distributed energy resources for reliable grid services, addressing concerns about renewable energy sources not being reliable enough.\n4. Building-integrated photovoltaics (BIPV) integrate solar cells directly into building materials to increase land use efficiency and reduce costs.\n5. Geothermal energy harnesses heat from Earth's core, providing continuous baseload power, while green hydrogen becomes a key energy carrier for difficult-to-electrify sectors.\n6. Solar power capacity has increased over tenfold in the last decade, making renewable energy viable for worldwide electricity generation and meeting 86% of global demand by 2050 according to IRENA.\n7. Tidal energy utilizes ocean tides' natural rise and fall to generate electricity efficiently, with Denmark generating over 50% of its electricity from wind and solar power in 2020.\n8. Hydropower is the largest source of renewable electricity globally, accounting for about 16% of global electricity generation and reducing energy costs as technology advances.\n9. The International Renewable Energy Agency (IRENA) predicts that renewables could supply 86% of global power demand by 2050.\n10. Excess energy generated from wind farms is stored in batteries, such as the Tesla Powerwall and Sonnen Battery, for later use or to feed back into the grid during peak times.\n\nArtificial Intelligence:\n1. Machine learning enables AI systems to learn from data without explicit programming.\n2. Explainable AI (XAI) focuses on making AI decisions understandable to humans by using techniques like LIME and SHAP.\n3. Edge AI processes data locally on devices for reduced latency and privacy concerns, with applications in the Internet of Things (IoT).\n4. Ethical considerations include bias, privacy, accountability, and job displacement; federated learning allows models trained across multiple devices while keeping data localized.\n5. Deep Blue was the first computer to defeat a world chess champion when it beat Garry Kasparov in 1997 using machine learning algorithms like AlphaGo.\n6. AI alignment research aims to ensure that AI systems act in accordance with human values and intentions, addressing potential risks such as superintelligence or unintended consequences.\n7. The AI winter refers to periods of reduced funding and interest in artificial intelligence research.\n8. Computer vision enables machines to interpret and make decisions based on visual data, aiding fields like autonomous vehicles, facial recognition, and medical imaging.\n9. Geothermal energy harnesses heat from Earth's core for continuous baseload power, while green hydrogen becomes an essential component in addressing sectors resistant to electrification.\n10. Solar power capacity has grown more than tenfold since 2010, with the International Renewable Energy Agency (IRENA) projecting that renewables could supply 86% of global power demand by 2050.\n11. Tidal energy is currently the largest source of renewable electricity, accounting for about 16% of global electricity generation and reducing costs as technology advances.\n12. The Apollo 11 mission landed the first humans on the Moon on July 20, 1969, with significant contributions to space exploration and scientific research.\n13. SpaceX has become the first private company to send humans to the International Space Station since its launch in 2020, aiming for sustainable lunar exploration by 2025 according to the Artemis program.\n\nSpace Exploration:\n14. The first human-made object from Earth's surface was Yuri Gagarin on April 12, 1961.\n15. Exoplanets are planets orbiting stars outside our solar system with over 5,000 confirmed discoveries.\n16. Voyager 1 is the most distant human-made object from Earth since its launch in 1977.\n17. Reusable rocket technology has significantly reduced the cost of access to space in the past decade.\n18. Space debris, consisting of defunct satellites and mission-related debris, is a growing threat to space operations worldwide.\n19. The Apollo 11 mission landed the first humans on the Moon on July 20, 1969, making it one of the most significant human achievements in space exploration.\n20. SpaceX has become the first private company to send humans to the International Space Station since its launch in 2020.\n21. The Parker Solar Probe is designed to study the Sun's corona by flying closer to the Sun than any previous spacecraft, with a mission duration of several years.\n22. Mars rovers like Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored the Martian surface.\n23. The Hubble Space Telescope has made over 1.4 million observations and generated more than 150 terabytes of data since its launch in 1990.\n24. The Gateway is a planned lunar orbital outpost that will serve as a staging point for lunar and Mars missions, with plans to support sustainable space exploration by the end of the decade.\n25. The James Webb Space Telescope, launched in 2021, is the largest and most powerful space telescope ever built, providing detailed observations of exoplanets and their atmospheres for future research.\n26. Artemis aims to return humans to the Moon and establish sustainable lunar exploration by 2025.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "Private companies have significantly reduced the cost of space launches"
+            ],
+            "points_missed": [
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 1.0,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.625,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.3333333333333333,
+              "AI regulation is being developed in various countries": 0.2,
+              "Private companies have significantly reduced the cost of space launches": 0.7142857142857143,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.5714285714285714,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.5,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 12,
+            "points_mentioned_count": 4,
+            "recall_score": 0.3333333333333333
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.125,
+          "time_taken": 17.88765025138855,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "The document discusses two main topics in renewable energy: biomass, wind turbines, floating solar farms, virtual power plants, building-integrated photovoltaics (BIPV), geothermal energy, green hydrogen, solar power capacity increase, and hydropower.\n\nRenewable energy sources like biomass, wind, tidal, and geothermal are being harnessed using various technologies to manage intermittency issues in renewable sources. Floating solar farms maximize land use efficiency by utilizing reservoirs and lakes. Virtual power plants aggregate distributed energy resources for reliable grid services. BIPV incorporates solar cells into building materials.\n\nArtificial Intelligence (AI) is a subset of AI that enables learning from data without explicit programming, focusing on explainable AI (XAI), edge AI, ethical concerns in AI, federated learning, deep blue becoming the first computer to defeat a world chess champion, and aligning AI with human values.\n\nThe second topic is Artificial Intelligence (AI) research and its focus on ethics, particularly addressing bias, privacy, accountability, job displacement, and federated learning in reinforcement learning. George A. Williams, John H. McCarthy, Alan Turing, and Jane Austen are mentioned as significant contributors to AI.\n\nIn summary, renewable energy sources like biomass, wind, tidal, geothermal, solar power capacity increase, and hydropower are being utilized with various technologies such as floating solar farms, virtual power plants, BIPV, and green hydrogen. Explainable AI (XAI) is crucial for understanding AI system decisions, while edge AI processes data locally on devices to reduce latency and privacy concerns. Ethical concerns in AI are addressed through explainable AI research, with federated learning being used for training models across multiple devices without centralized storage. George A. Williams coined the term 'artificial intelligence,' and Jane Austen's novels like 'Pride and Prejudice' were written around 1809-1817 when she was young, but her works are considered popular until this day.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Ethical concerns include bias in AI systems and job displacement"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.42857142857142855,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.5,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.375,
+              "Ethical concerns include bias in AI systems and job displacement": 0.6666666666666666,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.1111111111111111,
+              "AI regulation is being developed in various countries": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 1,
+            "recall_score": 0.125
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.375,
+          "time_taken": 29.094644784927368,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "The first human to journey into space was Yuri Gagarin on April 12, 1961. The International Space Station has been continuously occupied since November 2000. Reusable rocket technology has significantly reduced the cost of access to space in the past decade. Tidal energy utilizes the natural rise and fall of ocean tides to generate electricity, with Denmark generating over 50% of its electricity from wind and solar power in 2020. The cost of solar photovoltaic modules has decreased by approximately 90% since 2010, while geothermal energy is one of the largest sources of renewable electricity, accounting for about 16% of global electricity generation.\n\nSpaceX became the first private company to send humans to the International Space Station in 2020, and the Artemis program aims to return humans to the Moon by 2025. The Parker Solar Probe is designed to study the Sun's corona by flying closer to the Sun than any previous spacecraft. Mars rovers like Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored the Martian surface, while the Hubble Space Telescope has made over 1.4 million observations and generated more than 150 terabytes of data. The Gateway is a planned lunar orbital outpost that will serve as a staging point for lunar and Mars missions.\n\nThe International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050, with solar photovoltaic modules having decreased in cost by approximately 90%. Geothermal energy is a significant source of renewable electricity. The Apollo 11 mission landed the first humans on the Moon on July 20, 1969.\n\nSpaceX became the first private company to send humans to the International Space Station in 2020, and space debris poses a growing threat to space operations. The Apollo program was led by NASA's Jane Wales, with most of her work done between 1967 and 1985. SpaceX is also known for its creative approach to designing reusable rockets, which has helped reduce the cost of access to space.\n\nThe James Webb Space Telescope, launched in 2021, is the largest and most powerful space telescope ever built, with plans to study the Sun's corona by flying closer to the Sun than any previous spacecraft. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus.\n\nTidal energy is a renewable source of power that harnesses the natural rise and fall of ocean tides to generate electricity, with tidal stream generators being developed as an alternative to barrage turbines. The space sector has seen significant advancements in technology for reusable rockets, including SpaceX's Falcon 9 and Falcon Heavy launch vehicles.\n\nThe solar power capacity worldwide increased more than tenfold in the last decade, with wind energy also playing a major role due to its high efficiency and low operating costs. The International Renewable Energy Agency (IRENA) projects that renewables could supply 86% of global power demand by 2050, focusing on solar photovoltaic modules, geothermal energy, wind, hydrogen, and battery storage technologies.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Private companies have significantly reduced the cost of space launches",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 1.0,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.5714285714285714,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Private companies have significantly reduced the cost of space launches": 0.7142857142857143,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.42857142857142855,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 3,
+            "recall_score": 0.375
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 25.268247604370117,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Artificial Intelligence (AI) is a subset of AI that enables systems to learn from data without explicit programming, focusing on making decisions understandable to humans through processes like Explainable AI (XAI). Edge AI processes data locally on devices, reducing latency and privacy concerns. Ethical considerations in AI include bias, privacy, accountability, and job displacement.\n\nFederated learning is a method for training models across multiple devices while keeping local data localized to address these ethical concerns. Deep Blue became the first computer to defeat a world chess champion when it beat Garry Kasparov in 1997. Reinforcement learning was used to train AlphaGo, which achieved this feat by beating Lee Sedol in Go in 2016.\n\nAI alignment research aims to ensure AI systems act according to human values and intentions. The AI winter refers to periods of reduced funding for artificial intelligence research. Computer vision enables machines to interpret visual data like images, text, music, and videos.\n\nThe term \"artificial intelligence\" was coined by John McCarthy in 1956, and reinforcement learning was used to train AlphaGo, which achieved this feat by beating Lee Sedol in Go. Space exploration encompasses the first human to journey into space (Yuri Gagarin), over 5,000 confirmed exoplanets discovered, and various missions like the Voyager, International Space Station, Mars rovers, and the Hubble Space Telescope.\n\nSpaceX became the first private company to send humans to the International Space Station in 2020. The Artemis program aims for returning humans to the Moon by 2025. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus.\n\nThe Parker Solar Probe is designed to study the Sun's corona, while SpaceX plans a planned lunar orbital outpost called Gateway for serving as a staging point for lunar and Mars missions. The James Webb Space Telescope, launched in 2021, is the largest and most powerful space telescope ever built, with an aim to study the universe's earliest galaxies.\n\nIn summary, artificial intelligence encompasses machine learning techniques that enable systems to learn from data without explicit programming, while edge AI processes data locally on devices. Ethical concerns in AI include bias, privacy, accountability, and job displacement. Space exploration includes space travel, missions like the Apollo program, Mars rovers, and the Parker Solar Probe as well as plans for lunar and Mars colonization by private companies like SpaceX.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Ethical concerns include bias in AI systems and job displacement",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.5,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.3333333333333333,
+              "AI regulation is being developed in various countries": 0.2,
+              "Private companies have significantly reduced the cost of space launches": 0.5714285714285714,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.5714285714285714,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        }
+      }
+    },
+    "60000": {
+      "average_score": 0.25,
+      "test_results": {
+        "multi_doc_all": {
+          "score": 0.25,
+          "time_taken": 43.65705680847168,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "Renewable Energy:\n1. Hydropower is the largest source of renewable electricity, accounting for 16% of global electricity generation. Tidal energy utilizes ocean tides and generates electricity up to 60%. Wind turbines convert wind energy into electricity with an efficiency of 35-40%, compared to fossil fuel plants that achieve around 35-40%.\n2. Denmark generated over 50% of its electricity from wind and solar power in 2020, and the cost of solar photovoltaic modules has decreased by approximately 90% since 2010.\n3. Green hydrogen, produced using renewable electricity, is a promising energy carrier for sectors difficult to electrify. Building-integrated photovoltaics (BIPV) incorporate solar cells directly into building materials.\n4. Edge AI processes data locally on devices instead of in the cloud, reducing latency and privacy concerns. Computer vision enables machines to interpret and make decisions based on visual data.\n5. Virtual power plants aggregate distributed energy resources for reliable grid services. Floating solar farms maximize land use efficiency by utilizing reservoirs and lakes. Geothermal energy harnesses heat from the Earth's core, providing continuous baseload power.\n6. The International Renewable Energy Agency (IRENA) projects that renewable energy could supply 86% of global power demand by 2050.\n\nArtificial Intelligence:\n1. Machine learning enables systems to learn from data without explicit programming, allowing for various AI applications like Natural Language Processing (NLP), Generative AI, and AI alignment research.\n2. Edge AI processes data locally on devices instead of in the cloud, reducing latency and privacy concerns. Computer vision enables machines to interpret and make decisions based on visual data.\n3. The Turing Test evaluates a machine's ability to exhibit intelligent behavior, with Walt Whitman being one of its proponents. Ethical concerns in AI include bias, privacy, accountability, and job displacement.\n4. Reinforcement learning was used to train AlphaGo, defeating world champion Go player Lee Sedol in 2016. Federated learning allows models to be trained across multiple devices while keeping data localized.\n5. Explainable AI (XAI) focuses on making AI systems' decisions understandable to humans through techniques like LIME and SHAP.\n6. The term 'artificial intelligence' was coined by John McCarthy in 1956. Reinforcement learning was used to train AlphaGo, a computer program that beat world champion Go player Lee Sedol in 2016.\n7. SpaceX became the first private company to send humans to the International Space Station in 2020 and has reusable rocket technology, making space travel more affordable and accessible.\n8. Denmark generated over 50% of its electricity from wind and solar power in 2020. The cost of solar photovoltaic modules has decreased by approximately 90%.\n9. Green hydrogen, produced using renewable electricity, is a promising energy carrier for sectors difficult to electrify. Building-integrated photovoltaics (BIPV) incorporate solar cells directly into building materials.\n10. Floating solar farms maximize land use efficiency by utilizing reservoirs and lakes. Geothermal energy harnesses heat from the Earth's core, providing continuous baseload power. The Apollo 11 mission launched humans to the Moon in 1969, with Mars rovers including Sojourner, Spirit, Opportunity, Curiosity, and Perseverance exploring the Martian surface.\n11. SpaceX became the first private company to send humans to the International Space Station in 2020. The Artemis program aims to return humans to the Moon and establish sustainable lunar exploration by 2025, with a focus on habitable zones around stars and ocean worlds like Europa and Enceladus.\n12. The Gartner Hype Cycle for Emerging Technologies in 2021 shows that AI will continue to play an increasingly important role in various industries, including healthcare, finance, transportation, and manufacturing.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.42857142857142855,
+              "Energy storage remains a significant challenge for renewable adoption": 0.2857142857142857,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.75,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.4444444444444444,
+              "AI regulation is being developed in various countries": 0.4,
+              "Private companies have significantly reduced the cost of space launches": 0.42857142857142855,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.2857142857142857,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.625,
+              "Space telescopes have revolutionized our understanding of the universe": 0.2
+            },
+            "total_points": 12,
+            "points_mentioned_count": 3,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Renewable Energy_Artificial Intelligence": {
+          "score": 0.25,
+          "time_taken": 21.687434196472168,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries"
+          ],
+          "response": "Renewable energy sources, such as hydropower, tidal energy, biomass, wind turbines, geothermal energy, solar photovoltaics (BIPV), floating solar farms, and green hydrogen, are rapidly growing in popularity due to their potential for reducing dependence on fossil fuels. Denmark generated over 50% of its electricity from wind and solar power in 2020, with the cost of solar photovoltaic modules decreasing by approximately 90% since 2010.\n\nAI technologies, including machine learning, natural language processing (NLP), generative AI, reinforcement learning, edge AI, computer vision, and edge computing are being used to manage intermittency in renewable energy sources. Edge AI processes data locally on devices instead of sending it to the cloud for analysis, improving efficiency and reducing latency.\n\nBiomass energy is derived from organic materials such as plants, agricultural residues, and waste, with potential to supply continuous baseload power. The International Renewable Energy Agency (IRENA) projects that renewable energy could meet 86% of global power demand by 2050.\n\nIn the field of computing, AI alignment research aims to ensure AI systems act in accordance with human values and intentions. Edge computing involves processing data locally on devices instead of sending it to the cloud for analysis, reducing latency and privacy concerns.\n\nThe Turing Test, proposed by Alan Turing in 1950, evaluates a machine's ability to exhibit intelligent behavior. Ethical considerations in AI include bias, privacy, accountability, and job displacement. The AI winter refers to periods of reduced funding and interest in artificial intelligence research.\n\nIn conclusion, renewable energy sources are becoming increasingly important as a means to reduce greenhouse gas emissions and combat climate change. Meanwhile, advancements in AI technologies are enabling smarter management of these resources and the development of new applications for them.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Energy storage remains a significant challenge for renewable adoption",
+              "Government incentives have been crucial for renewable energy growth",
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.5714285714285714,
+              "Energy storage remains a significant challenge for renewable adoption": 0.2857142857142857,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Deep learning has revolutionized computer vision and natural language processing": 0.75,
+              "Ethical concerns include bias in AI systems and job displacement": 1.0,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.2222222222222222,
+              "AI regulation is being developed in various countries": 0.2
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Renewable Energy_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 29.520848274230957,
+          "key_points": [
+            "Solar power capacity has increased tenfold in the last decade",
+            "Wind energy is now cost-competitive with fossil fuels in many regions",
+            "Energy storage remains a significant challenge for renewable adoption",
+            "Government incentives have been crucial for renewable energy growth",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "1. **Renewable Energy**: Hydropower is currently the largest source of renewable electricity, accounting for around 16% of global electricity generation. Tidal energy utilizes ocean tides to generate electricity and has a conversion efficiency of up to 60%. Wind turbines can convert wind energy into electricity with efficiencies ranging from 35-40%, making them one of the most efficient renewable sources. Building-integrated photovoltaics (BIPV) integrate solar cells directly into building materials, while virtual power plants aggregate distributed energy resources for reliable grid services. Floating solar farms maximize land use efficiency and are increasingly used due to their benefits in space utilization and reduced evaporation. Geothermal energy harnesses heat from the Earth's core, providing continuous baseload power with minimal environmental impact.\n\n2. **Space Exploration**: SpaceX became the first private company to send humans to the International Space Station in 2020, using reusable rocket technology. The Hubble Space Telescope has made over 1.4 million observations and generated more than 150 terabytes of data. Mars rovers like Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored the Martian surface. The Apollo 11 mission landed the first humans on the Moon on July 20, 1969, while the Gateway is a planned lunar orbital outpost for sustainable lunar exploration by 2050.\n\n3. **Additional Information**: The cost of solar photovoltaic modules has decreased by approximately 90% since 2010, and renewable energy jobs worldwide reached 11.5 million in 2019, with solar photovoltaics being the largest employer. Tidal energy utilizes ocean tides to generate electricity, while wind turbines convert wind energy into electricity. The International Space Station has been continuously occupied since November 2000, and space debris remains a significant challenge for future missions. Denmark generated over 50% of its electricity from wind and solar power in 2020, with the cost of solar photovoltaic modules decreasing by approximately 90%. The Artemis program aims to return humans to the Moon and establish sustainable lunar exploration by 2025. Space-based telescopes like the James Webb Space Telescope are used for studying the Sun's corona, while exoplanets have been discovered with over 5,000 confirmed planets in our galaxy alone. The search for extraterrestrial life focuses on habitable zones around stars and ocean worlds like Europa and Enceladus, including missions to investigate potential biosignatures.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Energy storage remains a significant challenge for renewable adoption",
+              "The search for extraterrestrial life focuses on ocean moons like Europa"
+            ],
+            "points_missed": [
+              "Solar power capacity has increased tenfold in the last decade",
+              "Wind energy is now cost-competitive with fossil fuels in many regions",
+              "Government incentives have been crucial for renewable energy growth",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Solar power capacity has increased tenfold in the last decade": 0.2857142857142857,
+              "Wind energy is now cost-competitive with fossil fuels in many regions": 0.2857142857142857,
+              "Energy storage remains a significant challenge for renewable adoption": 0.7142857142857143,
+              "Government incentives have been crucial for renewable energy growth": 0.3333333333333333,
+              "Private companies have significantly reduced the cost of space launches": 0.5714285714285714,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.42857142857142855,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.875,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        },
+        "multi_doc_Artificial Intelligence_Space Exploration": {
+          "score": 0.25,
+          "time_taken": 27.034973621368408,
+          "key_points": [
+            "Deep learning has revolutionized computer vision and natural language processing",
+            "Ethical concerns include bias in AI systems and job displacement",
+            "Large language models can generate human-like text but struggle with factual accuracy",
+            "AI regulation is being developed in various countries",
+            "Private companies have significantly reduced the cost of space launches",
+            "Mars missions are planned for the late 2020s and early 2030s",
+            "The search for extraterrestrial life focuses on ocean moons like Europa",
+            "Space telescopes have revolutionized our understanding of the universe"
+          ],
+          "response": "The key points from the provided text are as follows:\n\n1. **Artificial Intelligence (AI)**:\n   - AI, including machine learning, natural language processing, generative art, alignment research, edge computing, computer vision, reinforcement learning, federated learning, and Explainable AI (XAI), aim to make AI systems intelligent through various techniques like data processing in the cloud vs. on devices, handling visual data with MLPs or deep learning models.\n   - The Turing Test, developed by Alan Turing in 1950, evaluates a machine's ability to exhibit intelligent behavior, but faces criticism for its limitations and lack of a clear definition.\n   - Edge AI reduces latency and privacy concerns by processing data locally on devices instead of sending it to the cloud.\n   - NLP enables computers to understand human language, while reinforcement learning helps train AI models in making decisions without explicit programming.\n\n2. **Space Exploration**:\n   - SpaceX successfully landed humans for the first time to the International Space Station in 2020 and is working towards sending humans back by 2025 with Artemis program.\n   - Reusable rocket technology has significantly reduced spaceflight costs since 2010, but challenges remain such as designing more durable vehicles, improving payload capacity, and developing efficient landing systems.\n   - Hubble Space Telescope continues to observe celestial objects and generate vast amounts of data for further study.\n   - The International Space Station has been continuously occupied since November 2000, with the first human mission led by Yuri Gagarin in 1961.\n\n3. **AI Ethics**:\n   - AI systems should align with human values to ensure they behave ethically and respect privacy. The field of AI alignment research aims to guarantee this.\n   - Researchers are working on addressing concerns such as bias, discrimination, accountability, job displacement, and the need for explainable models in decision-making processes.\n\n4. **AI Applications**:\n   - AI has been applied to various fields like healthcare (e.g., diagnosing diseases), finance (e.g., fraud detection), transportation (e.g., autonomous vehicles), and entertainment (e.g., video games).\n\n5. **Space Exploration Technologies**:\n   - SpaceX successfully launched humans to the International Space Station, demonstrating reusability in space technology.\n   - Advancements have been made in telescopes like Hubble and missions such as Mars rovers and exploration of exoplanets.",
+          "evaluation_details": {
+            "points_mentioned": [
+              "Deep learning has revolutionized computer vision and natural language processing",
+              "Ethical concerns include bias in AI systems and job displacement"
+            ],
+            "points_missed": [
+              "Large language models can generate human-like text but struggle with factual accuracy",
+              "AI regulation is being developed in various countries",
+              "Private companies have significantly reduced the cost of space launches",
+              "Mars missions are planned for the late 2020s and early 2030s",
+              "The search for extraterrestrial life focuses on ocean moons like Europa",
+              "Space telescopes have revolutionized our understanding of the universe"
+            ],
+            "match_scores": {
+              "Deep learning has revolutionized computer vision and natural language processing": 0.875,
+              "Ethical concerns include bias in AI systems and job displacement": 0.8333333333333334,
+              "Large language models can generate human-like text but struggle with factual accuracy": 0.4444444444444444,
+              "AI regulation is being developed in various countries": 0.4,
+              "Private companies have significantly reduced the cost of space launches": 0.5714285714285714,
+              "Mars missions are planned for the late 2020s and early 2030s": 0.42857142857142855,
+              "The search for extraterrestrial life focuses on ocean moons like Europa": 0.25,
+              "Space telescopes have revolutionized our understanding of the universe": 0.4
+            },
+            "total_points": 8,
+            "points_mentioned_count": 2,
+            "recall_score": 0.25
+          }
+        }
+      }
+    }
+  }
+}

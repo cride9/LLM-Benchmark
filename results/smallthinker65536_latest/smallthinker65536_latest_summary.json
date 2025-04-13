@@ -1,0 +1,38 @@
+{
+  "model": "smallthinker65536:latest",
+  "timestamp": "2025-04-12T21:29:03.703334",
+  "tests": {
+    "basic_retrieval": {
+      "context_lengths": [
+        100000
+      ],
+      "accuracy_by_length": {
+        "100000": 1.0
+      }
+    },
+    "memory_association": {
+      "context_lengths": [
+        100000
+      ],
+      "accuracy_by_length": {
+        "100000": 0.6666666666666666
+      }
+    },
+    "multi_document": {
+      "context_lengths": [
+        100000
+      ],
+      "score_by_length": {
+        "100000": 0.6354166666666666
+      }
+    },
+    "topic_switching": {
+      "context_lengths": [
+        100000
+      ],
+      "score_by_length": {
+        "100000": 0.44166666666666665
+      }
+    }
+  }
+}
