@@ -1,0 +1,1814 @@
+{
+  "test_name": "topic_switching",
+  "model": "granite3.265536:latest",
+  "timestamp": "2025-04-14T19:41:19.204074",
+  "results_by_length": {
+    "1000": {
+      "average_score": 0.3466666666666667,
+      "test_results": {
+        "topic_switch_1_1": {
+          "score": 0.3,
+          "time_taken": 22.73525381088257,
+          "relevant_facts": [
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "Quantum cryptography uses quantum properties to secure communications.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously.",
+            "Quantum field theory reconciles quantum mechanics with special relativity.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "The quantum Zeno effect shows that frequent measurements can prevent quantum systems from evolving."
+          ],
+          "irrelevant_facts": [
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system."
+          ],
+          "response": "The provided text contains no direct mention of quantum physics or any scientific facts related to it. It is a book description for \"Pride and Prejudice\" by Jane Austen with illustrations by Hugh Thomson and a preface by George Saintsbury, originally published in 1894 under the Ruskin House imprint. The text focuses on literary aspects such as title, author, publisher, place of publication, and specific chapter details from \"Pride and Prejudice.\"\n\nAs there are no scientific or quantum physics concepts within this description, it's not possible to summarize any key facts about quantum physics derived from the given text. Quantum physics is a separate field of study that deals with phenomena on a very small scale, such as molecules, atoms, and subatomic particles. It introduces principles like superposition, entanglement, uncertainty principle, wave-particle duality, among others, which are not discussed in this literary book description.",
+          "evaluation_details": {
+            "relevant_mentioned": [],
+            "relevant_missed": [
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+              "Quantum entanglement allows particles to be correlated across vast distances.",
+              "Quantum cryptography uses quantum properties to secure communications.",
+              "Quantum computing uses qubits that can represent multiple states simultaneously.",
+              "Quantum field theory reconciles quantum mechanics with special relativity.",
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+              "The quantum Zeno effect shows that frequent measurements can prevent quantum systems from evolving."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.1,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.125,
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.": 0.1,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.375,
+              "Quantum cryptography uses quantum properties to secure communications.": 0.42857142857142855,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.25,
+              "Quantum field theory reconciles quantum mechanics with special relativity.": 0.375,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.42857142857142855,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 0.3,
+              "The quantum Zeno effect shows that frequent measurements can prevent quantum systems from evolving.": 0.2
+            },
+            "irrelevant_match_scores": {
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.0,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.0,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 0.0,
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.": 0.125,
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.0,
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.": 0.0,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.0,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.0,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.0,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 0.0
+            },
+            "recall": 0.0,
+            "precision": 1.0,
+            "combined_score": 0.3
+          }
+        },
+        "topic_switch_1_2": {
+          "score": 0.37,
+          "time_taken": 20.47017240524292,
+          "relevant_facts": [
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system."
+          ],
+          "irrelevant_facts": [
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "Quantum cryptography uses quantum properties to secure communications.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously.",
+            "Quantum field theory reconciles quantum mechanics with special relativity.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "The quantum Zeno effect shows that frequent measurements can prevent quantum systems from evolving."
+          ],
+          "response": "The text provides information related to Jupiter's moons within the context of literature, specifically referencing \"Pride and Prejudice\" by Jane Austen. The passage does not contain any new or original astronomical facts but rather cites an existing claim about Jupiter:\n\n1. **Jupiter's Moon Count**: It is stated that Jupiter possesses at least 79 moons, which makes it the celestial body with the highest number of moons in our solar system. This fact was recognized prior to April 2024 when this text's knowledge cutoff date applies.\n\nIn summary, the key astronomical point from the given text is Jupiter's impressive count of at least 79 moons, making it the planet with the most natural satellites among all known planets in our solar system as of that time.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Jupiter has at least 79 moons, the most of any planet in our solar system."
+            ],
+            "relevant_missed": [
+              "The Sun accounts for 99.86% of the mass in our solar system.",
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+              "A day on Mercury lasts approximately 176 Earth days."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.4,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.0,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 0.2857142857142857,
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.": 0.125,
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.0,
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.": 0.125,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.0,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.0,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.0,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 1.0
+            },
+            "irrelevant_match_scores": {
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.0,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.125,
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.": 0.0,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.0,
+              "Quantum cryptography uses quantum properties to secure communications.": 0.0,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.0,
+              "Quantum field theory reconciles quantum mechanics with special relativity.": 0.0,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.0,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 0.1,
+              "The quantum Zeno effect shows that frequent measurements can prevent quantum systems from evolving.": 0.0
+            },
+            "recall": 0.1,
+            "precision": 1.0,
+            "combined_score": 0.37
+          }
+        },
+        "topic_switch_2_1": {
+          "score": 0.3,
+          "time_taken": 14.055250406265259,
+          "relevant_facts": [
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "Supervised learning algorithms learn from labeled training data to make predictions.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+          ],
+          "irrelevant_facts": [
+            "The corpus callosum connects the left and right hemispheres of the brain.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+            "Neurotransmitters are chemicals that transmit signals across synapses.",
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Glial cells provide support and protection for neurons in the brain."
+          ],
+          "response": "The given text does not contain any direct information or mention related to machine learning as it primarily discusses Jane Austen's novels \"Pride and Prejudice\" and their adaptation with a preface by George Saintsbury. The text provides details about the book's publication, author's name, publisher, house address in London, illustrations, chapter title (\"Reading Jane\u2019s Letters,\" Chapter 34 of \"Pride and Prejudice\"), and edition year (1894). Therefore, there are no key facts about machine learning to summarize from this particular source.",
+          "evaluation_details": {
+            "relevant_mentioned": [],
+            "relevant_missed": [
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+              "Transfer learning applies knowledge from one task to improve learning in another task.",
+              "Supervised learning algorithms learn from labeled training data to make predictions.",
+              "The bias-variance tradeoff is a central problem in supervised learning.",
+              "Feature engineering transforms raw data into features that better represent the underlying problem.",
+              "Unsupervised learning algorithms find patterns in unlabeled data.",
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.0,
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.2222222222222222,
+              "Supervised learning algorithms learn from labeled training data to make predictions.": 0.2222222222222222,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.0,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.0,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 0.14285714285714285,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.0,
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 0.18181818181818182,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.0,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.0
+            },
+            "irrelevant_match_scores": {
+              "The corpus callosum connects the left and right hemispheres of the brain.": 0.0,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.0,
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.": 0.0,
+              "Neurotransmitters are chemicals that transmit signals across synapses.": 0.0,
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 0.0,
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.0,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.16666666666666666,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.14285714285714285,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.0,
+              "Glial cells provide support and protection for neurons in the brain.": 0.14285714285714285
+            },
+            "recall": 0.0,
+            "precision": 1.0,
+            "combined_score": 0.3
+          }
+        },
+        "topic_switch_2_2": {
+          "score": 0.37,
+          "time_taken": 44.746700286865234,
+          "relevant_facts": [
+            "The corpus callosum connects the left and right hemispheres of the brain.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+            "Neurotransmitters are chemicals that transmit signals across synapses.",
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Glial cells provide support and protection for neurons in the brain."
+          ],
+          "irrelevant_facts": [
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "Supervised learning algorithms learn from labeled training data to make predictions.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+          ],
+          "response": "The provided text does not directly discuss neuroscience; instead, it pertains to literary information about Jane Austen's novel \"Pride and Prejudice,\" with illustrations from 1894 by Hugh Thomson and a preface by George Saintsbury. It includes the book details:\n\n- Title: Pride and Prejudice\n- Author: Jane Austen\n- Publisher: GEORGE ALLEN, at 156 CHARING CROSS ROAD, LONDON (RUSKIN HOUSE)\n- Illustrations by: HUGH THOMSON (dated to 1894)\n\nThe text does not contain any scientific facts or findings related to neuroscience such as:\n\n1. The types of glial cells (astrocytes, oligodendrocytes, microglia, etc.) and their functions in supporting and protecting neurons.\n2. Neuronal communication processes, including synaptic transmission and signal transduction.\n3. Neuroplasticity, learning, memory, or cognitive functions.\n4. Neural development stages (embryonic, fetal, postnatal).\n5. Brain regions and their specific roles in various functions like motor control, sensory processing, or higher cognition.\n6. Neurodegenerative diseases, neurogenesis, or regenerative medicine approaches.\n7. Neurochemistry involving neurotransmitters (serotonin, dopamine, glutamate, GABA) and their receptors.\n8. Genetic influences on brain structure and function through genes like SLC6A4 or BRAIN-Derived Neurotrophic Factor (BDNF).\n\nIn summary, this text does not offer any scientific insights into neuroscience but rather provides information about the publication of a classic novel by Jane Austen.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Glial cells provide support and protection for neurons in the brain."
+            ],
+            "relevant_missed": [
+              "The corpus callosum connects the left and right hemispheres of the brain.",
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+              "Neurotransmitters are chemicals that transmit signals across synapses.",
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+              "The hippocampus plays a crucial role in the formation of new memories.",
+              "Synapses are the junctions between neurons where information is transmitted.",
+              "Neurogenesis is the process by which new neurons are formed in the brain."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The corpus callosum connects the left and right hemispheres of the brain.": 0.0,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.0,
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.": 0.2222222222222222,
+              "Neurotransmitters are chemicals that transmit signals across synapses.": 0.3333333333333333,
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 0.125,
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.14285714285714285,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.3333333333333333,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.2857142857142857,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.5,
+              "Glial cells provide support and protection for neurons in the brain.": 0.7142857142857143
+            },
+            "irrelevant_match_scores": {
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.2,
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.2222222222222222,
+              "Supervised learning algorithms learn from labeled training data to make predictions.": 0.2222222222222222,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.0,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.1,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 0.2857142857142857,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.1,
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 0.18181818181818182,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.09090909090909091,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.1111111111111111
+            },
+            "recall": 0.1,
+            "precision": 1.0,
+            "combined_score": 0.37
+          }
+        },
+        "topic_switch_3_1": {
+          "score": 0.3,
+          "time_taken": 34.127352237701416,
+          "relevant_facts": [
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Roman Empire at its height covered over 5 million square kilometers.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "The Roman calendar initially had 10 months, with January and February added later."
+          ],
+          "irrelevant_facts": [
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "Greek city-states (polis) were independent states that often competed with each other.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "The Parthenon was built between 447-432 BCE to honor the goddess Athena.",
+            "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature."
+          ],
+          "response": "The provided text does not contain any direct information about Ancient Rome. It discusses two separate works of literature: \"The Iliad and the Odyssey\" attributed to Homer, which are foundational texts in Western literature, and a 19th-century English edition of Jane Austen's \"Pride and Prejudice,\" with illustrations by Hugh Thomson.\n\nThe text includes the publisher details: GEORGE ALLEN at 156 CHARING CROSS ROAD, LONDON; RUSKIN HOUSE; and a date (1894) for the illustration of \"Reading Jane's Letters.\" The work itself is an edition of \"Pride and Prejudice,\" with George Saintsbury as the preface writer.\n\nAs there are no mentions of Ancient Rome, such facts as its founding (753 BC), key figures like Julius Caesar or Augustus, significant events including the Punic Wars, the establishment of the Roman Republic and Empire, political structures, military conquests, architectural achievements (like the Colosseum and aqueducts), legal systems (Roman law influencing modern civil codes), or cultural contributions (e.g., language, literature, art) are not addressed in this text about these two 19th-century literary editions.",
+          "evaluation_details": {
+            "relevant_mentioned": [],
+            "relevant_missed": [
+              "Roman aqueducts supplied water to cities and towns across the empire.",
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+              "The Roman Empire at its height covered over 5 million square kilometers.",
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.",
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+              "Roman citizens wore togas as a sign of their citizenship status.",
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+              "The Roman calendar initially had 10 months, with January and February added later."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.25,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.2,
+              "The Roman Empire at its height covered over 5 million square kilometers.": 0.25,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.2857142857142857,
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.": 0.3333333333333333,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.14285714285714285,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.2857142857142857,
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.": 0.0,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.0,
+              "The Roman calendar initially had 10 months, with January and February added later.": 0.125
+            },
+            "irrelevant_match_scores": {
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.16666666666666666,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.2222222222222222,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.0,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.14285714285714285,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.0,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.0,
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena.": 0.0,
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.": 0.0,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.2857142857142857,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.5555555555555556
+            },
+            "recall": 0.0,
+            "precision": 1.0,
+            "combined_score": 0.3
+          }
+        },
+        "topic_switch_3_2": {
+          "score": 0.43999999999999995,
+          "time_taken": 41.00609469413757,
+          "relevant_facts": [
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "Greek city-states (polis) were independent states that often competed with each other.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "The Parthenon was built between 447-432 BCE to honor the goddess Athena.",
+            "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature."
+          ],
+          "irrelevant_facts": [
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Roman Empire at its height covered over 5 million square kilometers.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "The Roman calendar initially had 10 months, with January and February added later."
+          ],
+          "response": "The provided text consists of two separate notices for book publications: one from 156 Charing Cross Road, London (later identified as George Allen), and another regarding \"Jane Austen's Letters\" with illustrations by Hugh Thomson. Neither of these notices directly discusses ancient Greece or any related historical facts about it.\n\nHowever, to answer your query based on the title 'The Iliad and the Odyssey' attributed to Homer, here are the key facts about ancient Greece mentioned in this context:\n\n1. **Authorship**: These epic poems, considered foundational texts of Western literature, are traditionally associated with Homer, a figure who lived in the 8th century BCE, during or shortly after the Greek Dark Ages (1100-800 BCE).\n\n2. **Provenance**: They were attributed to Homer from early times, and their composition has been linked to the oral tradition of ancient Greece, which flourished before literacy became widespread.\n\n3. **Age**: As mentioned in the text, both \"The Iliad\" and \"The Odyssey\" are among the oldest works of Western literature, dating back to around 800 BCE. This age precedes the Classical Period (5th century - 4th century BCE) of ancient Greece by several centuries.\n\nThese details indicate that \"The Iliad and the Odyssey\" are significant texts from ancient Greece, not explicitly connected to any specific period within its broader historical context like the Greek Dark Ages or Classical Period.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature."
+            ],
+            "relevant_missed": [
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+              "Greek city-states (polis) were independent states that often competed with each other.",
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena.",
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.8333333333333334,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.1111111111111111,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.2,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.14285714285714285,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.14285714285714285,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.16666666666666666,
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena.": 0.0,
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.": 0.25,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.2857142857142857,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.7777777777777778
+            },
+            "irrelevant_match_scores": {
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.0,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.0,
+              "The Roman Empire at its height covered over 5 million square kilometers.": 0.0,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.2857142857142857,
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.": 0.16666666666666666,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.0,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.14285714285714285,
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.": 0.3,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.14285714285714285,
+              "The Roman calendar initially had 10 months, with January and February added later.": 0.0
+            },
+            "recall": 0.2,
+            "precision": 1.0,
+            "combined_score": 0.43999999999999995
+          }
+        }
+      }
+    },
+    "5000": {
+      "average_score": 0.7816666666666666,
+      "test_results": {
+        "topic_switch_1_1": {
+          "score": 0.7999999999999999,
+          "time_taken": 68.0740134716034,
+          "relevant_facts": [
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "Quantum decoherence explains how quantum systems interact with their environment.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "Quantum teleportation allows quantum states to be transmitted over distances.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects."
+          ],
+          "irrelevant_facts": [
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Neutron stars can rotate up to 600 times per second.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+            "Light from the Andromeda galaxy takes 2.5 million years to reach Earth."
+          ],
+          "response": "The key facts about quantum physics presented in this text are as follows:\n\n1. **Heisenberg's Uncertainty Principle**: This fundamental concept states that it is impossible to precisely determine both the position and momentum (mass times velocity) of a particle simultaneously, introducing an inherent limit to our knowledge of quantum systems' properties.\n\n2. **Quantum Superposition**: Particles can exist in multiple states or places at once until they are measured, collapsing from a superposition into a single definite state. This phenomenon challenges classical physics notions of determinism.\n\n3. **Retrograde Rotation (Venus)**: In contrast to other planets, Venus rotates in the opposite direction on its axis, completing one rotation every 243 Earth days.\n\n4. **Quantum Decoherence**: This process explains how quantum systems interact with their environment, leading to a loss of coherence in the superposition and ultimately resulting in classical behavior as observed macroscopically.\n\n5. **Schr\u00f6dinger Equation**: A fundamental equation in quantum mechanics describing how quantum states evolve over time for any physical system governed by the Schr\u00f6dinger picture. It's crucial for predicting various properties of a system.\n\n6. **Bell's Theorem & Local Hidden Variables**: Bell's theorem demonstrates that quantum mechanics cannot be explained using local hidden variable theories. Instead, it necessitates non-local correlations in quantum systems, which are now well-established through experiments like those conducted with entangled particles.\n\n7. **Quantum Entanglement**: Two or more particles can become \"entangled,\" meaning their properties (like spins or polarizations) become correlated such that the state of one instantaneously influences and defines the state of the other, regardless of the distance separating them.\n\n8. **Neutron Star Rotation**: Some neutron stars rotate extremely rapidly, up to 600 times per second, due to their immense mass and strong gravitational forces.\n\n9. **Quantum Teleportation**: A theoretical method for transmitting quantum information from one location to another without physically sending the quantum system itself. It relies on entanglement and measurement processes.\n\n10. **Wave-Particle Duality (Double-Slit Experiment)**: Quantum particles, like photons or electrons, exhibit both wave-like and particle-like properties when interacting with a double-slit apparatus. The interference pattern observed in the experiment reflects this dual nature.\n\n11. **Quantum Tunneling**: Particles can pass through energy barriers that would be insurmountable according to classical physics, thanks to quantum tunneling. This process enables various phenomena, including nuclear fusion and certain electronic processes in semiconductors.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+              "Quantum decoherence explains how quantum systems interact with their environment.",
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+              "Quantum teleportation allows quantum states to be transmitted over distances.",
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects."
+            ],
+            "relevant_missed": [
+              "Quantum entanglement allows particles to be correlated across vast distances.",
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces."
+            ],
+            "irrelevant_mentioned": [
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+              "Neutron stars can rotate up to 600 times per second."
+            ],
+            "relevant_match_scores": {
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.75,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 0.8,
+              "Quantum decoherence explains how quantum systems interact with their environment.": 0.8571428571428571,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.75,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.5,
+              "Quantum teleportation allows quantum states to be transmitted over distances.": 0.625,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.8,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.9166666666666666,
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.": 0.25,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.8571428571428571
+            },
+            "irrelevant_match_scores": {
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.0,
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.": 0.7,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.4,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.4,
+              "Neutron stars can rotate up to 600 times per second.": 0.8,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.1,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 0.0,
+              "The Milky Way galaxy contains between 100-400 billion stars.": 0.0,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 0.2857142857142857,
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.": 0.0
+            },
+            "recall": 0.8,
+            "precision": 0.8,
+            "combined_score": 0.7999999999999999
+          }
+        },
+        "topic_switch_1_2": {
+          "score": 0.97,
+          "time_taken": 55.21136164665222,
+          "relevant_facts": [
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Neutron stars can rotate up to 600 times per second.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+            "Light from the Andromeda galaxy takes 2.5 million years to reach Earth."
+          ],
+          "irrelevant_facts": [
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "Quantum decoherence explains how quantum systems interact with their environment.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "Quantum teleportation allows quantum states to be transmitted over distances.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects."
+          ],
+          "response": "In this text, several significant astronomical facts and observations are highlighted:\n\n1. The Cosmic Microwave Background Radiation (CMBR): This is the afterglow of the Big Bang, providing crucial evidence supporting the standard model of cosmology.\n\n2. Planetary Rotation:\n   - Venus exhibits retrograde rotation, moving in an opposite direction to most planets in our solar system.\n\n3. Day Lengths on Planets:\n   - A day on Mercury lasts approximately 176 Earth days due to its slow and highly elliptical orbit around the Sun.\n\n4. Mass Distribution:\n   - The Sun accounts for 99.86% of the mass in our solar system, illustrating its dominance over other celestial bodies.\n\n5. Observations by the Hubble Space Telescope:\n   - Since its launch in 1990, the Hubble Space Telescope has made over 1.4 million observations, contributing significantly to astronomical research.\n\n6. Jupiter's Moons:\n   - With at least 79 moons, Jupiter holds the record for the most moons among all planets in our solar system.\n\n7. Stellar Systems and Forces:\n   - Neutron stars can rotate up to 600 times per second, showcasing extreme rapidity within stellar cores.\n   - Quantum tunneling enables particles to penetrate energy barriers, a phenomenon with classical physics counterparts.\n\n8. Stellar Population in the Milky Way:\n   - The galaxy contains between 100-400 billion stars, providing context for stellar abundance within our home galaxy.\n\n9. The Casimir Effect:\n   - This effect demonstrates that vacuum fluctuations can lead to measurable forces in quantum fields, influencing the behavior of particles and systems even in empty space.\n\n10. Other Noteworthy Astronomical Phenomena:\n    - The Great Red Spot on Jupiter is a persistent storm estimated to have been raging for at least 400 years.\n    - Light from the Andromeda galaxy takes approximately 2.5 million years to reach Earth, emphasizing vast cosmic distances and travel times.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+              "A day on Mercury lasts approximately 176 Earth days.",
+              "The Sun accounts for 99.86% of the mass in our solar system.",
+              "Neutron stars can rotate up to 600 times per second.",
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+              "The Milky Way galaxy contains between 100-400 billion stars.",
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth."
+            ],
+            "relevant_missed": [],
+            "irrelevant_mentioned": [
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces."
+            ],
+            "relevant_match_scores": {
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.8333333333333334,
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.": 0.6,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.8,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 1.0,
+              "Neutron stars can rotate up to 600 times per second.": 0.8,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.9,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 1.0,
+              "The Milky Way galaxy contains between 100-400 billion stars.": 0.8571428571428571,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 1.0,
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.": 0.875
+            },
+            "irrelevant_match_scores": {
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.0,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 0.2,
+              "Quantum decoherence explains how quantum systems interact with their environment.": 0.42857142857142855,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.25,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.375,
+              "Quantum teleportation allows quantum states to be transmitted over distances.": 0.375,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.1,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.5833333333333334,
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.": 0.75,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.2857142857142857
+            },
+            "recall": 1.0,
+            "precision": 0.9,
+            "combined_score": 0.97
+          }
+        },
+        "topic_switch_2_1": {
+          "score": 0.5599999999999999,
+          "time_taken": 51.299906969070435,
+          "relevant_facts": [
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Cross-validation helps assess how a model will generalize to independent data.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data."
+          ],
+          "irrelevant_facts": [
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The default mode network is active when the brain is at rest and not focused on the outside world.",
+            "Neurons communicate with each other through electrical and chemical signals.",
+            "The human brain contains approximately 86 billion neurons.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Glial cells provide support and protection for neurons in the brain."
+          ],
+          "response": "1. **Transfer Learning**: Applies knowledge from one task to enhance learning in another, enabling better performance with less data or computational resources.\n\n2. **Model Complexity and Decision Making**: The prefrontal cortex is involved in complex cognitive behaviors and decision-making processes, which are crucial aspects of machine learning when selecting appropriate models for tasks.\n\n3. **Bias-Variance Tradeoff**: A significant problem in supervised learning, where bias refers to oversimplified models causing underfitting, and variance indicates overly complex models capturing noise or outliers (overfitting), aiming for an optimal balance between these two extremes.\n\n4. **Memory Formation**: The hippocampus is critical for new memory formation, which is fundamental in supervised learning algorithms that need to remember patterns from training data to make predictions on unseen instances.\n\n5. **Neural Networks**: Computing systems inspired by biological neural networks found in animal brains, used as the foundation of many machine learning techniques like deep learning and recurrent neural networks (RNNs).\n\n6. **Deep Learning**: Utilizes multiple layers of artificial neurons to automatically learn hierarchical feature representations from raw input data, improving performance on complex tasks compared to traditional machine learning models.\n\n7. **Communication Between Neurons**: Information transfer between neurons occurs via electrical and chemical signals through synapses, representing the basic building blocks in both biological and artificial neural networks.\n\n8. **Overfitting**: Occurs when a model learns training data too well, including noise and outliers, leading to poor generalization on unseen data; techniques like regularization and cross-validation help mitigate this issue.\n\n9. **Reinforcement Learning**: Trains algorithms through trial-and-error interactions with an environment, rewarding desired behaviors while punishing undesirable ones, enabling autonomous decision-making models for tasks like game playing or robotics control.\n\n10. **Cross-Validation**: A technique to assess a model's ability to generalize by splitting available data into multiple subsets, training on some and testing on others, providing more robust estimates of predictive performance than using only the entire dataset.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Transfer learning applies knowledge from one task to improve learning in another task.",
+              "The bias-variance tradeoff is a central problem in supervised learning.",
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+              "Reinforcement learning trains algorithms through a reward and punishment system.",
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers."
+            ],
+            "relevant_missed": [
+              "Unsupervised learning algorithms find patterns in unlabeled data.",
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+              "Cross-validation helps assess how a model will generalize to independent data.",
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data."
+            ],
+            "irrelevant_mentioned": [
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+              "Neurons communicate with each other through electrical and chemical signals.",
+              "Synapses are the junctions between neurons where information is transmitted."
+            ],
+            "relevant_match_scores": {
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.7777777777777778,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.6666666666666666,
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.9,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 0.42857142857142855,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.2,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.75,
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.": 0.5454545454545454,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.9090909090909091,
+              "Cross-validation helps assess how a model will generalize to independent data.": 0.5,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 0.5555555555555556
+            },
+            "irrelevant_match_scores": {
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 0.875,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.5,
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.14285714285714285,
+              "The default mode network is active when the brain is at rest and not focused on the outside world.": 0.4,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.625,
+              "The human brain contains approximately 86 billion neurons.": 0.16666666666666666,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.7142857142857143,
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.": 0.5,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.0,
+              "Glial cells provide support and protection for neurons in the brain.": 0.14285714285714285
+            },
+            "recall": 0.5,
+            "precision": 0.7,
+            "combined_score": 0.5599999999999999
+          }
+        },
+        "topic_switch_2_2": {
+          "score": 0.7899999999999999,
+          "time_taken": 75.06553506851196,
+          "relevant_facts": [
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The default mode network is active when the brain is at rest and not focused on the outside world.",
+            "Neurons communicate with each other through electrical and chemical signals.",
+            "The human brain contains approximately 86 billion neurons.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Glial cells provide support and protection for neurons in the brain."
+          ],
+          "irrelevant_facts": [
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Cross-validation helps assess how a model will generalize to independent data.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data."
+          ],
+          "response": "1. **Neocortex**: The prefrontal cortex is a part of it, which plays a significant role in complex cognitive behaviors and decision-making processes. It contributes to higher-order functions like planning, problem-solving, and abstract thinking.\n\n2. **Memory Formation**: The hippocampus is vital for the consolidation and formation of new memories. It helps encode information from short-term memory into long-term storage.\n\n3. **Brain Protection**: The blood-brain barrier safeguards the brain by preventing harmful substances in the bloodstream from interfering with its delicate neural network.\n\n4. **Unconscious Processing**: During rest or when not actively focused, the default mode network (DMN) is more active, indicating ongoing cognitive activities such as memory recall and autobiographical thought.\n\n5. **Neural Network Inspiration**: Neural networks, both artificial and biological, are computing systems that mimic the structure of animal brains, consisting of interconnected nodes or \"neurons.\"\n\n6. **Synaptic Communication**: Neurons communicate with each other through synapses, which transmit information via electrical signals (action potentials) and chemical messengers called neurotransmitters.\n\n7. **Learning Mechanisms**:\n   - **Supervised Learning**: Bias-variance tradeoff is a critical challenge in this type of learning, where algorithms aim to minimize both the complexity (high bias) and errors (high variance).\n   - **Unsupervised Learning**: Algorithms like k-means or autoencoders find patterns in unlabeled data without explicit guidance.\n   - **Reinforcement Learning**: This approach trains models by rewarding desired behaviors and punishing undesired ones, enabling the learning of optimal decision-making strategies through trial and error.\n\n8. **Neuronal Diversity**: The human brain contains approximately 86 billion neurons, each contributing to various functions depending on its connectivity and specialized properties.\n\n9. **Feature Extraction**: Deep learning employs multiple layers of neural networks (deep architectures) to extract increasingly abstract and high-level features from raw input data.\n\n10. **Action Perception**: Mirror neurons fire in both the execution and observation of actions, suggesting a link between action understanding and imitation in the brain's motor system.\n\n11. **Model Assessment (Generalization)**: Cross-validation techniques help evaluate how well models generalize to unseen data by testing their performance on various subsets of existing data.\n\n12. **Motor Control & Balance**: The cerebellum coordinates voluntary movements and maintains posture and balance, contributing significantly to fine motor skills and equilibrium.\n\n13. **Recurrent Processing**: Recurrent Neural Networks (RNNs) are specialized for recognizing patterns in sequences of data, making them particularly useful for processing time-dependent information like language or speech.\n\n14. **Support & Protection**: Glial cells provide structural support and protection to neurons within the brain's extracellular environment. They play essential roles in maintaining homeostasis, insulating axons, and facilitating synaptic communication.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.",
+              "The hippocampus plays a crucial role in the formation of new memories.",
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+              "The default mode network is active when the brain is at rest and not focused on the outside world.",
+              "Neurons communicate with each other through electrical and chemical signals.",
+              "The human brain contains approximately 86 billion neurons.",
+              "Synapses are the junctions between neurons where information is transmitted.",
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+              "Glial cells provide support and protection for neurons in the brain."
+            ],
+            "relevant_missed": [],
+            "irrelevant_mentioned": [
+              "The bias-variance tradeoff is a central problem in supervised learning.",
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+              "Unsupervised learning algorithms find patterns in unlabeled data.",
+              "Reinforcement learning trains algorithms through a reward and punishment system.",
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+              "Cross-validation helps assess how a model will generalize to independent data.",
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data."
+            ],
+            "relevant_match_scores": {
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 0.75,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.8333333333333334,
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.7142857142857143,
+              "The default mode network is active when the brain is at rest and not focused on the outside world.": 0.8,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.875,
+              "The human brain contains approximately 86 billion neurons.": 1.0,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.7142857142857143,
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.": 0.6428571428571429,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.8571428571428571,
+              "Glial cells provide support and protection for neurons in the brain.": 0.8571428571428571
+            },
+            "irrelevant_match_scores": {
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.2222222222222222,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.6666666666666666,
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.8,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 1.0,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.4,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.875,
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.": 0.7272727272727273,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.2727272727272727,
+              "Cross-validation helps assess how a model will generalize to independent data.": 0.75,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 0.7777777777777778
+            },
+            "recall": 1.0,
+            "precision": 0.30000000000000004,
+            "combined_score": 0.7899999999999999
+          }
+        },
+        "topic_switch_3_1": {
+          "score": 0.7699999999999999,
+          "time_taken": 89.34765648841858,
+          "relevant_facts": [
+            "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+            "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "The Roman Empire officially fell in 476 CE when Romulus Augustus was deposed.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE."
+          ],
+          "irrelevant_facts": [
+            "The Oracle of Delphi was consulted for important decisions and prophecies.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+            "Greek architecture featured three column styles: Doric, Ionic, and Corinthian.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Greek city-states (polis) were independent states that often competed with each other.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy."
+          ],
+          "response": "**Key Facts About Ancient Rome:**\n\n1. **Language and Law:** Latin was the official language of ancient Rome, but Greek was also widely spoken in its eastern provinces. The first written laws of Rome, known as the Twelve Tables (around 450 BCE), established a legal foundation for the Roman society.\n\n2. **Authority and Decision Making:** The Oracle of Delphi, although not part of Rome itself, was consulted for significant decisions in the ancient Mediterranean world, influencing Rome indirectly.\n\n3. **Legal Framework and Architecture:**\n   - *First Written Laws:* The Twelve Tables (450 BCE) marked Rome's transition from a society governed by custom to one with codified laws.\n   - *Architecture Giants:* The Pantheon, completed in 126 CE, boasts the world's largest unreinforced concrete dome and serves as an iconic example of Roman architecture.\n\n4. **Literature and Culture:**\n   - *Literary Masterpieces:* Among the oldest works of Western literature are Homer's Iliad and Odyssey, though they predated the Roman era; Rome itself developed its own influential literature later on.\n   - *Pax Romana (27 BCE - 180 CE):* A significant period of relative peace, stability, and expansion during which many cultural and architectural achievements took place.\n\n5. **Religious and Civic Events:**\n   - *Olympic Games:* Initiated in 776 BCE, the Olympics were held every four years until they ceased in 393 CE, providing an important cultural context for ancient Rome.\n   - *Colosseum:* Constructed between 70-80 CE, this amphitheater could seat up to 50,000\u201380,000 spectators, serving as a venue for gladiatorial contests and public entertainment.\n\n6. **Innovations in Engineering and Infrastructure:**\n   - *Roman Concrete:* Opus caementicium, known for its durability, was superior to modern concrete; it has withstood thousands of years of use.\n   - *Urban Planning:* Roman cities like Rome featured advanced aqueduct systems, extensive road networks (like the famous Appian Way), and complex sewage systems, showcasing their engineering prowess.\n\n7. **Empire and Citizenship:**\n   - *Fall of the Empire:* The Roman Empire officially ended in 476 CE when Romulus Augustus was deposed; this event marked the transition from the classical to the medieval period.\n   - *Roman Citizenship:* Indicated by wearing togas, it denoted a high social status and legal rights within the Roman Republic and Empire.\n\n8. **Notable Figures and Events:**\n   - *Julius Caesar (100-44 BCE):* A prominent general, statesman, and dictator who played a crucial role in Rome's transformation from a Republic to an Empire. His assassination on the Ides of March marked a turning point in Roman history.\n   - *Pompeii (79 CE):* Famously preserved by volcanic ash after the eruption of Mount Vesuvius, Pompeii offers valuable insights into daily life during the late Roman Republic and early Empire.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+              "The Colosseum could hold between 50,000 and 80,000 spectators.",
+              "The Roman Empire officially fell in 476 CE when Romulus Augustus was deposed.",
+              "Roman citizens wore togas as a sign of their citizenship status.",
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE."
+            ],
+            "relevant_missed": [
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE."
+            ],
+            "irrelevant_mentioned": [
+              "The Oracle of Delphi was consulted for important decisions and prophecies.",
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia."
+            ],
+            "relevant_match_scores": {
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.": 1.0,
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.": 0.8,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.8571428571428571,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.7142857142857143,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.7142857142857143,
+              "The Roman Empire officially fell in 476 CE when Romulus Augustus was deposed.": 0.75,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.5,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.7142857142857143,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.5714285714285714,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.625
+            },
+            "irrelevant_match_scores": {
+              "The Oracle of Delphi was consulted for important decisions and prophecies.": 0.8333333333333334,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.3333333333333333,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.6666666666666666,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.7777777777777778,
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.": 0.125,
+              "Greek architecture featured three column styles: Doric, Ionic, and Corinthian.": 0.3333333333333333,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.5,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.42857142857142855,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.3,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.42857142857142855
+            },
+            "recall": 0.8,
+            "precision": 0.7,
+            "combined_score": 0.7699999999999999
+          }
+        },
+        "topic_switch_3_2": {
+          "score": 0.7999999999999999,
+          "time_taken": 61.33442044258118,
+          "relevant_facts": [
+            "The Oracle of Delphi was consulted for important decisions and prophecies.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+            "Greek architecture featured three column styles: Doric, Ionic, and Corinthian.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Greek city-states (polis) were independent states that often competed with each other.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy."
+          ],
+          "irrelevant_facts": [
+            "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+            "The Twelve Tables, created around 450 BCE, were Rome's first written laws.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "The Roman Empire officially fell in 476 CE when Romulus Augustus was deposed.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE."
+          ],
+          "response": "Ancient Greece thrived from approximately 800 BCE to 146 BCE, spanning nearly two millennia and leaving a profound impact on Western civilization:\n\n1. **Language and Literature:**\n   - Greek was the primary language, but Latin also gained prominence in the eastern provinces of ancient Rome.\n   - The Iliad and the Odyssey, attributed to Homer, are considered among the oldest works of Western literature.\n\n2. **Religion and Oracle:**\n   - Delphi's Oracle was consulted for crucial decisions and predictions.\n\n3. **Legal Foundations:**\n   - The Twelve Tables, Rome's first written laws (around 450 BCE), showcase early Greek influence on Roman legal systems.\n\n4. **Mathematics and Science:**\n   - Ancient Greeks made significant strides in mathematics, including geometry and number theory.\n\n5. **Architecture:**\n   - Greek architecture featured three primary column styles: Doric, Ionic, and Corinthian.\n   - Notable structures include the Parthenon, one of the most iconic examples of this style.\n\n6. **Philosophy:**\n   - Socrates, Plato, and Aristotle established the bedrock of Western philosophical thought in Athens' city-states (polis), which were independent states often engaged in intellectual competition.\n\n7. **Politics and Governance:**\n   - City-states, or polis, were self-governing units where citizens could participate in politics, a model that influenced later democratic systems.\n\n8. **Cultural Milestones:**\n   - The Olympic Games began as an every-four-year event in 776 BCE and showcased athletic prowess, arts, and cultural exchange.\n\n9. **Arts and Aesthetics:**\n   - Greek civilization fostered a rich tradition of visual arts, sculpture, pottery, and theater that shaped subsequent Western artistic expressions.\n\n10. **Decline and Legacy:**\n    - Despite Alexander the Great's ambitious expansion by 323 BCE, Greek civilization continued to evolve until its official fall in 146 BCE when it was conquered by the Roman Empire.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The Oracle of Delphi was consulted for important decisions and prophecies.",
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+              "Greek architecture featured three column styles: Doric, Ionic, and Corinthian.",
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+              "Greek city-states (polis) were independent states that often competed with each other.",
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy."
+            ],
+            "relevant_missed": [
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30."
+            ],
+            "irrelevant_mentioned": [
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws."
+            ],
+            "relevant_match_scores": {
+              "The Oracle of Delphi was consulted for important decisions and prophecies.": 0.6666666666666666,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.7777777777777778,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 1.0,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.6666666666666666,
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.": 0.125,
+              "Greek architecture featured three column styles: Doric, Ionic, and Corinthian.": 1.0,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.6666666666666666,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.42857142857142855,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.7,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.8571428571428571
+            },
+            "irrelevant_match_scores": {
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.": 0.6,
+              "The Twelve Tables, created around 450 BCE, were Rome's first written laws.": 0.8,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.14285714285714285,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.0,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.14285714285714285,
+              "The Roman Empire officially fell in 476 CE when Romulus Augustus was deposed.": 0.375,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.1,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.42857142857142855,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.14285714285714285,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.125
+            },
+            "recall": 0.8,
+            "precision": 0.8,
+            "combined_score": 0.7999999999999999
+          }
+        }
+      }
+    },
+    "10000": {
+      "average_score": 0.725,
+      "test_results": {
+        "topic_switch_1_1": {
+          "score": 0.8599999999999999,
+          "time_taken": 66.89241695404053,
+          "relevant_facts": [
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.",
+            "Quantum teleportation allows quantum states to be transmitted over distances.",
+            "Quantum decoherence explains how quantum systems interact with their environment.",
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously."
+          ],
+          "irrelevant_facts": [
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+            "Neutron stars can rotate up to 600 times per second.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "A day on Mercury lasts approximately 176 Earth days."
+          ],
+          "response": "The text highlights several significant aspects of quantum physics:\n\n1. **Quantum States and Evolution**: The Schr\u00f6dinger equation governs how quantum states change over time. It's a fundamental equation in quantum mechanics that provides a mathematical description of the wave function, which contains all information about a physical system.\n\n2. **Vacuum Fluctuations and Forces**: Casimir effect demonstrates that vacuum fluctuations\u2014temporary changes in energy due to quantum fields\u2014can create measurable forces between uncharged metallic plates separated by a small gap, contrary to classical expectations where such a situation should be neutral.\n\n3. **Superposition and Measurement**: Quantum teleportation allows the transmission of quantum states over distances without physically moving the particles themselves. This phenomenon involves superposition (quantum systems existing in multiple states simultaneously) and entanglement, which will be discussed next.\n\n4. **Entanglement**: Quantum entanglement enables particles to become correlated such that their properties are linked, regardless of the distance between them. When particles are entangled, measuring one instantly affects the state of the other, even if they're light-years apart\u2014this is the essence of non-local connections in quantum mechanics.\n\n5. **Decoherence and Environment Interaction**: Quantum decoherence describes how quantum systems interact with their environments, causing superposition to collapse into definite states (classical outcomes). This process is crucial for understanding the transition from quantum to classical behavior in macroscopic objects.\n\n6. **Uncertainty Principle and Precision**: Heisenberg's uncertainty principle asserts that it is impossible to precisely determine both a particle's position and momentum simultaneously, with the product of uncertainties being greater than or equal to Planck's constant divided by 2\u03c0 (\u0127). This inherent limit on simultaneous knowledge adds a fundamental aspect to quantum measurements.\n\n7. **Particle-Wave Duality**: The double-slit experiment illustrates wave-particle duality, showing that quantum objects can exhibit properties of both waves and particles. Particles like electrons or photons pass through two slits, creating an interference pattern typical of waves until observed (which collapses the wave function into discrete particle hits).\n\n8. **Entanglement and Distance**: Quantum entanglement allows for correlations across vast distances, as seen in phenomena like quantum teleportation. While not directly stated, this implies that entangled particles can influence each other instantly regardless of their separation by enormous cosmic scales.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.",
+              "Quantum teleportation allows quantum states to be transmitted over distances.",
+              "Quantum decoherence explains how quantum systems interact with their environment.",
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+              "Quantum entanglement allows particles to be correlated across vast distances.",
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics."
+            ],
+            "relevant_missed": [
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+              "Quantum computing uses qubits that can represent multiple states simultaneously."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.875,
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.": 0.875,
+              "Quantum teleportation allows quantum states to be transmitted over distances.": 0.75,
+              "Quantum decoherence explains how quantum systems interact with their environment.": 0.7142857142857143,
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.75,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.875,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 1.0,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.6666666666666666,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.3,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.375
+            },
+            "irrelevant_match_scores": {
+              "The Milky Way galaxy contains between 100-400 billion stars.": 0.2857142857142857,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 0.14285714285714285,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.1,
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.": 0.25,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 0.14285714285714285,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.2,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.0,
+              "Neutron stars can rotate up to 600 times per second.": 0.0,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.18181818181818182,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.0
+            },
+            "recall": 0.8,
+            "precision": 1.0,
+            "combined_score": 0.8599999999999999
+          }
+        },
+        "topic_switch_1_2": {
+          "score": 0.69,
+          "time_taken": 25.554194927215576,
+          "relevant_facts": [
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.",
+            "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+            "Neutron stars can rotate up to 600 times per second.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "A day on Mercury lasts approximately 176 Earth days."
+          ],
+          "irrelevant_facts": [
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.",
+            "Quantum teleportation allows quantum states to be transmitted over distances.",
+            "Quantum decoherence explains how quantum systems interact with their environment.",
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum entanglement allows particles to be correlated across vast distances.",
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously."
+          ],
+          "response": "1. Milky Way galaxy contains between 100-400 billion stars.\n2. Jupiter has at least 79 moons, more than any other planet in our solar system.\n3. Light from the Andromeda galaxy takes approximately 2.5 million years to reach Earth due to its immense distance (around 2.537 million light-years).\n4. The Sun accounts for about 99.86% of the mass in our solar system.\n5. There are at least two notable celestial objects:\n   a. Jupiter's Great Red Spot, a storm that has been raging for at least 400 years.\n   b. Neutron stars can rotate up to 600 times per second, demonstrating extreme rotational speeds in the universe.\n6. Heisenberg's uncertainty principle applies to quantum mechanics but is unrelated to astronomy: it states that we cannot precisely know both a particle's position and momentum simultaneously.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The Milky Way galaxy contains between 100-400 billion stars.",
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.",
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.",
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.",
+              "The Sun accounts for 99.86% of the mass in our solar system.",
+              "Neutron stars can rotate up to 600 times per second."
+            ],
+            "relevant_missed": [
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.",
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+              "A day on Mercury lasts approximately 176 Earth days."
+            ],
+            "irrelevant_mentioned": [
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision."
+            ],
+            "relevant_match_scores": {
+              "The Milky Way galaxy contains between 100-400 billion stars.": 1.0,
+              "Jupiter has at least 79 moons, the most of any planet in our solar system.": 0.8571428571428571,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.1,
+              "Light from the Andromeda galaxy takes 2.5 million years to reach Earth.": 0.875,
+              "The Great Red Spot on Jupiter is a storm that has been raging for at least 400 years.": 1.0,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 1.0,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.125,
+              "Neutron stars can rotate up to 600 times per second.": 0.8,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.0,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.4
+            },
+            "irrelevant_match_scores": {
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.25,
+              "The Casimir effect demonstrates that vacuum fluctuations can create measurable forces.": 0.0,
+              "Quantum teleportation allows quantum states to be transmitted over distances.": 0.375,
+              "Quantum decoherence explains how quantum systems interact with their environment.": 0.2857142857142857,
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.8333333333333334,
+              "Quantum entanglement allows particles to be correlated across vast distances.": 0.125,
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.14285714285714285,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.08333333333333333,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.3,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.375
+            },
+            "recall": 0.6,
+            "precision": 0.9,
+            "combined_score": 0.69
+          }
+        },
+        "topic_switch_2_1": {
+          "score": 0.8599999999999999,
+          "time_taken": 46.31482148170471,
+          "relevant_facts": [
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem."
+          ],
+          "irrelevant_facts": [
+            "Glial cells provide support and protection for neurons in the brain.",
+            "The corpus callosum connects the left and right hemispheres of the brain.",
+            "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "The amygdala plays a key role in processing emotions, particularly fear.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Neurotransmitters are chemicals that transmit signals across synapses.",
+            "Neurons communicate with each other through electrical and chemical signals."
+          ],
+          "response": "1. **Reinforcement Learning**: This type of machine learning involves training algorithms through a reward and punishment system to learn optimal decision-making based on maximizing cumulative rewards or minimizing punishments over time.\n\n2. **Gradient Descent**: A crucial optimization algorithm used in machine learning for minimizing the loss function, which measures the difference between predicted and actual values, thereby improving model accuracy through iterative adjustments to model parameters.\n\n3. **Overfitting**: Occurs when a machine learning model learns the training data too well, encompassing not only intended patterns but also noise and outliers, leading to poor generalization performance on unseen data.\n\n4. **Neural Networks (NNs) & Recurrent Neural Networks (RNNs)**: NNs mimic biological neural networks in animal brains; they consist of layers of interconnected nodes or artificial neurons that process information. RNNs are a type of NN specifically designed to recognize patterns within sequences, like time series data or natural language sentences.\n\n5. **Convolutional Neural Networks (CNNs)**: CNNs excel at image recognition tasks due to their architecture comprising convolutional layers that extract features from spatial hierarchies while employing pooling layers for dimensionality reduction and reducing computational complexity.\n\n6. **Supervised vs Unsupervised Learning**: Supervised learning involves training algorithms with labeled data to predict outputs, as seen in classification and regression problems. Unsupervised learning deals with finding hidden patterns or structures in unlabeled datasets without explicit guidance on what output labels should be.\n\n7. **Feature Engineering & Selection**: Transforming raw data into meaningful features that better capture the problem's underlying aspects is called feature engineering. This step can significantly impact model performance and efficiency, making it essential for successful machine learning projects.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+              "Reinforcement learning trains algorithms through a reward and punishment system.",
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.",
+              "Unsupervised learning algorithms find patterns in unlabeled data.",
+              "Feature engineering transforms raw data into features that better represent the underlying problem."
+            ],
+            "relevant_missed": [
+              "The bias-variance tradeoff is a central problem in supervised learning.",
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.6,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.75,
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 0.8181818181818182,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 1.0,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.8181818181818182,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.3333333333333333,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.6666666666666666,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 1.0,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.3,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.7
+            },
+            "irrelevant_match_scores": {
+              "Glial cells provide support and protection for neurons in the brain.": 0.14285714285714285,
+              "The corpus callosum connects the left and right hemispheres of the brain.": 0.0,
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.": 0.2857142857142857,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.5,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.42857142857142855,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.3333333333333333,
+              "The amygdala plays a key role in processing emotions, particularly fear.": 0.0,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.0,
+              "Neurotransmitters are chemicals that transmit signals across synapses.": 0.0,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.25
+            },
+            "recall": 0.8,
+            "precision": 1.0,
+            "combined_score": 0.8599999999999999
+          }
+        },
+        "topic_switch_2_2": {
+          "score": 0.63,
+          "time_taken": 62.66493058204651,
+          "relevant_facts": [
+            "Glial cells provide support and protection for neurons in the brain.",
+            "The corpus callosum connects the left and right hemispheres of the brain.",
+            "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "The hippocampus plays a crucial role in the formation of new memories.",
+            "The amygdala plays a key role in processing emotions, particularly fear.",
+            "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+            "Neurotransmitters are chemicals that transmit signals across synapses.",
+            "Neurons communicate with each other through electrical and chemical signals."
+          ],
+          "irrelevant_facts": [
+            "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.",
+            "Unsupervised learning algorithms find patterns in unlabeled data.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem."
+          ],
+          "response": "The text discusses several key concepts from neuroscience without explicitly mentioning machine learning. Here's a summary of these neuroscience aspects:\n\n1. **Brain Structures:**\n   - Glial cells support and protect neurons in the brain.\n   - The corpus callosum connects the left and right hemispheres, facilitating interhemispheric communication.\n\n2. **Neural Network Analogies:**\n   - Neural networks, inspired by biological neural networks in animal brains, are highlighted.\n\n3. **Learning Mechanisms:**\n   - Reinforcement learning is described as a training method for algorithms through reward and punishment systems, suggesting parallels with how neurons learn from experience and adjust connections based on rewards or penalties (e.g., long-term potentiation).\n\n4. **Neuronal Communication:**\n   - Neurons communicate via electrical signals along axons and chemical signals through synapses\u2014the junctions between neurons where information is transmitted, which are discussed as critical for neural networks' functioning.\n\n5. **Synaptic Transmission:**\n   - Synapses play a vital role in neural processing, with the text implying they are fundamental to understanding how brain functions mimic machine learning models (e.g., RNNs).\n\n6. **Memory Formation:**\n   - The hippocampus is emphasized for its crucial role in forming new memories, connecting directly to memory processes and their neural underpinnings.\n\n7. **Neuroplasticity:**\n   - Neurogenesis (the formation of new neurons) and synaptic changes illustrate the brain's remarkable capacity for reorganization and learning throughout life (neuroplasticity), which is essential for both neural networks and human cognitive development.\n\n8. **Learning Challenges in Neural Networks:**\n   - The text mentions overfitting, where a model learns training data too well, including noise and outliers, pointing to the importance of regularization and generalization in artificial neural networks, echoing challenges faced by biological neurons when forming accurate representations.\n\n9. **Brain Regions' Functions:**\n   - While not exhaustively listed, other brain areas mentioned include the amygdala (emotion processing), cerebellum (motor coordination and balance), and visual processing regions (implied for CNNs).\n\nThese aspects showcase how neuroscience underpins various concepts relevant to understanding both artificial neural networks and human cognition.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Glial cells provide support and protection for neurons in the brain.",
+              "The corpus callosum connects the left and right hemispheres of the brain.",
+              "Neurogenesis is the process by which new neurons are formed in the brain.",
+              "Synapses are the junctions between neurons where information is transmitted.",
+              "The hippocampus plays a crucial role in the formation of new memories.",
+              "Neurons communicate with each other through electrical and chemical signals."
+            ],
+            "relevant_missed": [
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.",
+              "The amygdala plays a key role in processing emotions, particularly fear.",
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.",
+              "Neurotransmitters are chemicals that transmit signals across synapses."
+            ],
+            "irrelevant_mentioned": [
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.",
+              "Reinforcement learning trains algorithms through a reward and punishment system.",
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers."
+            ],
+            "relevant_match_scores": {
+              "Glial cells provide support and protection for neurons in the brain.": 0.7142857142857143,
+              "The corpus callosum connects the left and right hemispheres of the brain.": 1.0,
+              "Mirror neurons fire both when an animal performs an action and when it observes the same action performed by another.": 0.35714285714285715,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.8333333333333334,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.8571428571428571,
+              "The hippocampus plays a crucial role in the formation of new memories.": 0.6666666666666666,
+              "The amygdala plays a key role in processing emotions, particularly fear.": 0.42857142857142855,
+              "The cerebellum coordinates voluntary movements and maintains posture and balance.": 0.14285714285714285,
+              "Neurotransmitters are chemicals that transmit signals across synapses.": 0.3333333333333333,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.75
+            },
+            "irrelevant_match_scores": {
+              "Neural networks are computing systems inspired by the biological neural networks in animal brains.": 0.8,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.75,
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 0.36363636363636365,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 0.2222222222222222,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.8181818181818182,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.16666666666666666,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.2222222222222222,
+              "Unsupervised learning algorithms find patterns in unlabeled data.": 0.2857142857142857,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.2,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.2
+            },
+            "recall": 0.6,
+            "precision": 0.7,
+            "combined_score": 0.63
+          }
+        },
+        "topic_switch_3_1": {
+          "score": 0.6599999999999999,
+          "time_taken": 85.83251881599426,
+          "relevant_facts": [
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+            "The Roman calendar initially had 10 months, with January and February added later.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+            "The Roman Senate was originally an advisory council composed of patricians."
+          ],
+          "irrelevant_facts": [
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy.",
+            "The Parthenon was built between 447-432 BCE to honor the goddess Athena.",
+            "Greek city-states (polis) were independent states that often competed with each other."
+          ],
+          "response": "The text highlights several significant aspects and accomplishments related to Ancient Rome:\n\n1. **Citizenship and Clothing**: Roman citizens identified themselves through wearing a toga, which was a symbol of their political status as a citizen.\n\n2. **Literature and Classics**:\n   - The Iliad and the Odyssey, attributed to Homer, are among the earliest works of Western literature, but these epics predated Rome's emergence significantly (around 8th century BCE).\n   - Greek civilization flourished from approximately 800 BCE to 146 CE. Ancient Roman literature began later and included Homer's works as foundational pieces, but not the Iliad and Odyssey themselves.\n\n3. **Concrete and Architecture**:\n   - Rome developed opus caementicium (Roman concrete), known for its durability compared to modern concrete. This was a crucial technological advancement in construction during Ancient Rome's reign.\n   - The Colosseum, one of the most iconic structures from this era, could accommodate between 50,000 and 80,000 spectators, showcasing impressive engineering feats.\n\n4. **Governance and Society**:\n   - Ancient Rome's Roman Senate started as an advisory body for patricians (aristocratic families) but evolved into a more powerful legislative branch over time.\n   - The calendar initially had ten months; January and February were later added, reflecting Roman adaptation of Babylonian influences.\n\n5. **Urban Development**:\n   - Ancient Rome built extensive aqueducts to supply water to cities and towns across its vast empire, exemplifying sophisticated urban planning.\n\n6. **Calendar Reform**:\n   - The Roman calendar was eventually reformed by Julius Caesar in 45 BCE, introducing the Julian calendar with leap years for a more accurate solar year calculation (approximately every four years).\n\n7. **Imperial Era and Key Figures**:\n   - Imperial Rome started under Augustus around 27 BCE, succeeding the Roman Republic. The text does not specifically discuss events or figures from this period.\n   - Julius Caesar, a key figure, was assassinated on the Ides of March (March 15) in 44 BCE, marking a turning point in Roman history known as the \"Year of the Four Emperors.\"\n\n8. **Architecture and Art**:\n   - The Pantheon in Rome holds the world's largest unreinforced concrete dome, demonstrating advanced engineering for its time (completed around 126 CE).\n\n9. **Cultural Influences and Comparison**:\n   - The text suggests a comparison between Jane Austen's humor and that of Addison, acknowledging shared qualities like demureness, fine detail, and an underlying cruelty in both authors' works \u2013 emphasizing the influence of Enlightenment sensibilities on literature during this period.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+              "The Colosseum could hold between 50,000 and 80,000 spectators.",
+              "Roman aqueducts supplied water to cities and towns across the empire.",
+              "The Roman calendar initially had 10 months, with January and February added later.",
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome."
+            ],
+            "relevant_missed": [
+              "Roman citizens wore togas as a sign of their citizenship status.",
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+              "The Roman Senate was originally an advisory council composed of patricians."
+            ],
+            "irrelevant_mentioned": [
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE."
+            ],
+            "relevant_match_scores": {
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.5714285714285714,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.6,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.8571428571428571,
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.75,
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.": 0.2,
+              "The Roman calendar initially had 10 months, with January and February added later.": 0.75,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.8571428571428571,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.8571428571428571,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.125,
+              "The Roman Senate was originally an advisory council composed of patricians.": 0.42857142857142855
+            },
+            "irrelevant_match_scores": {
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.7777777777777778,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.3333333333333333,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.5555555555555556,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.2857142857142857,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.42857142857142855,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.8333333333333334,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.3333333333333333,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.2857142857142857,
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena.": 0.2857142857142857,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.2
+            },
+            "recall": 0.6,
+            "precision": 0.8,
+            "combined_score": 0.6599999999999999
+          }
+        },
+        "topic_switch_3_2": {
+          "score": 0.6499999999999999,
+          "time_taken": 50.09949088096619,
+          "relevant_facts": [
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "Socrates, Plato, and Aristotle established the foundation of Western philosophy.",
+            "The Parthenon was built between 447-432 BCE to honor the goddess Athena.",
+            "Greek city-states (polis) were independent states that often competed with each other."
+          ],
+          "irrelevant_facts": [
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.",
+            "The Roman calendar initially had 10 months, with January and February added later.",
+            "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.",
+            "The Pantheon in Rome has the world's largest unreinforced concrete dome.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+            "The Roman Senate was originally an advisory council composed of patricians."
+          ],
+          "response": "The text provides several significant points concerning ancient Greek civilization:\n\n1. **Cultural and Historical Significance**: Ancient Greek civilization is highlighted as one of the most influential in Western history, spanning from approximately 800 BCE to 146 BCE. Its cultural contributions are profound, particularly in philosophy, politics, mathematics, and arts.\n\n2. **Mathematics Advancements**: Greeks developed advanced mathematical concepts, including geometry and number theory, which form the basis for modern mathematics.\n\n3. **City-States (Polis)**: Ancient Greek society was composed of independent city-states or polis, each with its unique government, laws, and cultural practices. These often competed among themselves, contributing to the diverse political landscape.\n\n4. **Philosophers' Foundation**: Socrates, Plato, and Aristotle established Western philosophy's foundation during this period. Their ideas significantly shaped intellectual thought in later centuries.\n\n5. **Artistic Masterpieces**: Notable ancient Greek architectural works mentioned include the Parthenon (built between 447-432 BCE) and Pantheon in Rome, showcasing their artistic prowess and influence on Western architecture.\n\n6. **Literature and Drama**: Despite the text focusing more on philosophy, Greek tragedies by playwrights like Aeschylus, Sophocles, and Euripides are implicitly acknowledged as cornerstones of world literature.\n\n7. **Democracy Origins**: Although not exclusively about ancient Greece, the text briefly touches upon democracy's origin in Athens around 508 BCE under Cleisthenes, highlighting an essential aspect of Greek political development.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.",
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.",
+              "Greek city-states (polis) were independent states that often competed with each other."
+            ],
+            "relevant_missed": [
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.4444444444444444,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.6666666666666666,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.0,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.42857142857142855,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.2857142857142857,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.8333333333333334,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.8888888888888888,
+              "Socrates, Plato, and Aristotle established the foundation of Western philosophy.": 0.8571428571428571,
+              "The Parthenon was built between 447-432 BCE to honor the goddess Athena.": 0.5714285714285714,
+              "Greek city-states (polis) were independent states that often competed with each other.": 0.8
+            },
+            "irrelevant_match_scores": {
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.14285714285714285,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.2,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.14285714285714285,
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.0,
+              "Latin was the official language of ancient Rome, but Greek was widely spoken in the eastern provinces.": 0.3,
+              "The Roman calendar initially had 10 months, with January and February added later.": 0.0,
+              "Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE.": 0.2857142857142857,
+              "The Pantheon in Rome has the world's largest unreinforced concrete dome.": 0.2857142857142857,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.125,
+              "The Roman Senate was originally an advisory council composed of patricians.": 0.14285714285714285
+            },
+            "recall": 0.5,
+            "precision": 1.0,
+            "combined_score": 0.6499999999999999
+          }
+        }
+      }
+    },
+    "20000": {
+      "average_score": 0.6999999999999998,
+      "test_results": {
+        "topic_switch_1_1": {
+          "score": 0.72,
+          "time_taken": 60.710689544677734,
+          "relevant_facts": [
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "Quantum field theory reconciles quantum mechanics with special relativity.",
+            "Quantum cryptography uses quantum properties to secure communications.",
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously.",
+            "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables."
+          ],
+          "irrelevant_facts": [
+            "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates."
+          ],
+          "response": "The text discusses several key concepts and principles in quantum physics as presented by a critic of Jane Austen's works:\n\n1. **Wave-Particle Duality**: The double-slit experiment is highlighted to demonstrate the wave-particle duality in quantum objects, where particles exhibit both wave-like and particle-like properties depending on how they are observed or measured.\n\n2. **Quantum Tunneling**: This phenomenon enables particles to pass through energy barriers that classical physics deems impossible. Particles can seemingly traverse potential barriers by exploiting their wave-like nature.\n\n3. **Uncertainty Principle (Heisenberg's Uncertainty Principle)**: It states that there is a fundamental limit to the precision with which certain pairs of physical properties, like position and momentum, can be simultaneously known for quantum systems. Attempting to measure one property precisely introduces uncertainty in measuring the other.\n\n4. **Superposition**: Quantum superposition posits that particles can exist in multiple states or configurations simultaneously until a measurement is made. This principle allows particles to 'exist in both places at once.'\n\n5. **Qubits and Multiple States**: The text mentions quantum computing, where qubits represent the fundamental units of quantum information. Unlike classical bits (which are either 0 or 1), qubits can be in a superposition of states, providing quantum computers with extra computational power.\n\n6. **Schr\u00f6dinger Equation**: This equation describes how quantum systems evolve over time mathematically, revealing the wave function associated with a system and governing its behavior under various conditions.\n\nThese points summarize key aspects of quantum physics presented in the text without delving into the related astronomical information provided.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+              "Quantum computing uses qubits that can represent multiple states simultaneously.",
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured."
+            ],
+            "relevant_missed": [
+              "Quantum field theory reconciles quantum mechanics with special relativity.",
+              "Quantum cryptography uses quantum properties to secure communications.",
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.7142857142857143,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.8333333333333334,
+              "Quantum field theory reconciles quantum mechanics with special relativity.": 0.25,
+              "Quantum cryptography uses quantum properties to secure communications.": 0.42857142857142855,
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.6666666666666666,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.75,
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.": 0.5,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.875,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 1.0,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.1
+            },
+            "irrelevant_match_scores": {
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.": 0.2,
+              "The Milky Way galaxy contains between 100-400 billion stars.": 0.0,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.2,
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.": 0.0,
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.0,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.09090909090909091,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.0,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.0,
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.": 0.125,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.0
+            },
+            "recall": 0.6,
+            "precision": 1.0,
+            "combined_score": 0.72
+          }
+        },
+        "topic_switch_1_2": {
+          "score": 0.7899999999999999,
+          "time_taken": 60.12387228012085,
+          "relevant_facts": [
+            "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+            "The Milky Way galaxy contains between 100-400 billion stars.",
+            "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+            "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+            "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+            "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+            "The Sun accounts for 99.86% of the mass in our solar system.",
+            "A day on Mercury lasts approximately 176 Earth days.",
+            "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+            "Pulsars emit beams of radiation that appear to pulse as the star rotates."
+          ],
+          "irrelevant_facts": [
+            "The double-slit experiment demonstrates the wave-particle duality of quantum objects.",
+            "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.",
+            "Quantum field theory reconciles quantum mechanics with special relativity.",
+            "Quantum cryptography uses quantum properties to secure communications.",
+            "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.",
+            "Quantum computing uses qubits that can represent multiple states simultaneously.",
+            "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.",
+            "The Schr\u00f6dinger equation describes how quantum states evolve over time.",
+            "Quantum superposition allows particles to exist in multiple states simultaneously until measured.",
+            "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables."
+          ],
+          "response": "Here are the key astronomical facts presented in the text:\n\n1. **Venus' Retrograde Rotation**: Venus rotates on its axis in an opposite direction to most planets, which is known as retrograde rotation. This phenomenon was observed and documented by the author.\n\n2. **Stellar Density in Milky Way**: The Milky Way galaxy contains between 100-400 billion stars, providing a rough estimate of its stellar density compared to other galaxies.\n\n3. **Hubble Space Telescope Observations**: Since its launch in 1990, the Hubble Space Telescope has made over 1.4 million observations, showcasing its significant role in modern astrophysics research.\n\n4. **Black Holes**: The text mentions black holes as regions of spacetime with such strong gravity that not even light can escape them. This concept is central to understanding the extreme conditions near massive celestial objects like supermassive black holes at the centers of galaxies, including our own Milky Way's Sagittarius A*.\n\n5. **Asteroid Belt**: The asteroid belt between Mars and Jupiter contains millions of asteroids, providing insights into the early solar system's formation and history.\n\n6. **Cosmic Microwave Background (CMB) Radiation**: The CMB is described as the afterglow of the Big Bang, which has been extensively studied by astronomers to understand the universe's infancy and evolution.\n\n7. **Star Characteristics**: Several star-related facts are implied, such as:\n   - Sun (Sol) being the dominant mass component in our solar system with 99.86%.\n   - The large star UY Scuti having a radius approximately 1,700 times that of the Sun, emphasizing stellar size disparity.\n\nThese factual points highlight significant aspects of modern astronomy discussed within the text while excluding quantum physics content.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.",
+              "The Milky Way galaxy contains between 100-400 billion stars.",
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.",
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.",
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.",
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.",
+              "The Sun accounts for 99.86% of the mass in our solar system."
+            ],
+            "relevant_missed": [
+              "A day on Mercury lasts approximately 176 Earth days.",
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.",
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "Venus rotates in the opposite direction to most planets, a phenomenon known as retrograde rotation.": 1.0,
+              "The Milky Way galaxy contains between 100-400 billion stars.": 0.8571428571428571,
+              "The Hubble Space Telescope has made over 1.4 million observations since its launch in 1990.": 0.9,
+              "The asteroid belt between Mars and Jupiter contains millions of asteroids.": 0.875,
+              "The cosmic microwave background radiation is the afterglow of the Big Bang.": 0.8333333333333334,
+              "Black holes are regions of spacetime where gravity is so strong that nothing can escape, not even light.": 0.6363636363636364,
+              "The Sun accounts for 99.86% of the mass in our solar system.": 0.6,
+              "A day on Mercury lasts approximately 176 Earth days.": 0.2,
+              "The largest known star, UY Scuti, has a radius about 1,700 times that of the Sun.": 0.5,
+              "Pulsars emit beams of radiation that appear to pulse as the star rotates.": 0.25
+            },
+            "irrelevant_match_scores": {
+              "The double-slit experiment demonstrates the wave-particle duality of quantum objects.": 0.14285714285714285,
+              "Quantum tunneling enables particles to pass through energy barriers that would be impossible in classical physics.": 0.08333333333333333,
+              "Quantum field theory reconciles quantum mechanics with special relativity.": 0.25,
+              "Quantum cryptography uses quantum properties to secure communications.": 0.2857142857142857,
+              "Heisenberg's uncertainty principle states that we cannot simultaneously know a particle's position and momentum with perfect precision.": 0.08333333333333333,
+              "Quantum computing uses qubits that can represent multiple states simultaneously.": 0.125,
+              "The Copenhagen interpretation suggests that quantum systems don't have definite properties until measured.": 0.1,
+              "The Schr\u00f6dinger equation describes how quantum states evolve over time.": 0.25,
+              "Quantum superposition allows particles to exist in multiple states simultaneously until measured.": 0.1,
+              "Bell's theorem proves that quantum mechanics cannot be explained by local hidden variables.": 0.1
+            },
+            "recall": 0.7,
+            "precision": 1.0,
+            "combined_score": 0.7899999999999999
+          }
+        },
+        "topic_switch_2_1": {
+          "score": 0.62,
+          "time_taken": 70.37000632286072,
+          "relevant_facts": [
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+          ],
+          "irrelevant_facts": [
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The amygdala plays a key role in processing emotions, particularly fear.",
+            "Neurons communicate with each other through electrical and chemical signals.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Glial cells provide support and protection for neurons in the brain.",
+            "The default mode network is active when the brain is at rest and not focused on the outside world.",
+            "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "The human brain contains approximately 86 billion neurons.",
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making."
+          ],
+          "response": "In the provided text, the following key facts about machine learning are discussed:\n\n1. **Gradient Descent**: This optimization algorithm is used to minimize the loss function in machine learning models by iteratively adjusting model parameters in the direction of steepest descent of the error surface.\n\n2. **Recurrent Neural Networks (RNNs)**: RNNs are designed specifically for sequential data processing, enabling them to recognize patterns over time sequences. They maintain internal states that capture information from previous steps, making them suitable for tasks like natural language processing and speech recognition.\n\n3. **Deep Learning**: The text highlights deep learning as a subfield of machine learning that employs multiple layers of neural networks (often referred to as \"deep\" nets) to extract increasingly abstract features from raw data inputs, enabling powerful performance in various tasks such as image and speech recognition.\n\n4. **Overfitting**: This is mentioned as an issue where a model performs exceptionally well on the training dataset but fails on unseen or new data due to learning noise and outliers inherent in the training set. Regularization techniques are often used to mitigate overfitting in deep learning models.\n\n5. **Transfer Learning**: Although not explicitly mentioned by name, the concept of transfer learning is alluded to when discussing how knowledge from one task can improve learning performance for another related task. In machine learning, this can be practiced by reusing pre-trained models as feature extractors on new tasks with limited data.\n\n6. **Neurogenesis**: Although primarily focused on neuroscience aspects, the text touches upon neuroplasticity (brain's ability to change and adapt) which is a key concept related to learning in machine learning systems: these artificial models can also learn and improve through experience, much like biological neural networks.\n\n7. **Feature Engineering**: While not directly mentioned as a machine learning process, feature engineering is alluded to when discussing how data is transformed into meaningful representations (features) for better learning in machine learning algorithms. This step is crucial for improving model performance by extracting and optimizing relevant characteristics from raw input data.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+              "Transfer learning applies knowledge from one task to improve learning in another task.",
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+              "Feature engineering transforms raw data into features that better represent the underlying problem.",
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input."
+            ],
+            "relevant_missed": [
+              "Reinforcement learning trains algorithms through a reward and punishment system.",
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+              "The bias-variance tradeoff is a central problem in supervised learning.",
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+            ],
+            "irrelevant_mentioned": [
+              "Neurogenesis is the process by which new neurons are formed in the brain."
+            ],
+            "relevant_match_scores": {
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 1.0,
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.8888888888888888,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 1.0,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.375,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.5454545454545454,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.7,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.0,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.2,
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.": 0.7272727272727273,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.4444444444444444
+            },
+            "irrelevant_match_scores": {
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.14285714285714285,
+              "The amygdala plays a key role in processing emotions, particularly fear.": 0.14285714285714285,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.25,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.6666666666666666,
+              "Glial cells provide support and protection for neurons in the brain.": 0.14285714285714285,
+              "The default mode network is active when the brain is at rest and not focused on the outside world.": 0.5,
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.": 0.4444444444444444,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.2857142857142857,
+              "The human brain contains approximately 86 billion neurons.": 0.16666666666666666,
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 0.0
+            },
+            "recall": 0.5,
+            "precision": 0.9,
+            "combined_score": 0.62
+          }
+        },
+        "topic_switch_2_2": {
+          "score": 0.83,
+          "time_taken": 66.93852424621582,
+          "relevant_facts": [
+            "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+            "The amygdala plays a key role in processing emotions, particularly fear.",
+            "Neurons communicate with each other through electrical and chemical signals.",
+            "Neurogenesis is the process by which new neurons are formed in the brain.",
+            "Glial cells provide support and protection for neurons in the brain.",
+            "The default mode network is active when the brain is at rest and not focused on the outside world.",
+            "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+            "Synapses are the junctions between neurons where information is transmitted.",
+            "The human brain contains approximately 86 billion neurons.",
+            "The prefrontal cortex is involved in complex cognitive behaviors and decision making."
+          ],
+          "irrelevant_facts": [
+            "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+            "Transfer learning applies knowledge from one task to improve learning in another task.",
+            "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.",
+            "Reinforcement learning trains algorithms through a reward and punishment system.",
+            "Overfitting occurs when a model learns the training data too well, including its noise and outliers.",
+            "Feature engineering transforms raw data into features that better represent the underlying problem.",
+            "The bias-variance tradeoff is a central problem in supervised learning.",
+            "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.",
+            "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.",
+            "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks."
+          ],
+          "response": "The text touches upon several key aspects of neuroscience without delving into machine learning concepts directly:\n\n1. **Neurons and Communication**: Neurons are the fundamental units of the nervous system, which communicate with one another through electrical and chemical signals. This communication is vital for information processing within the brain.\n\n2. **Brain Regions and Functions**: The text highlights various brain regions and their functions:\n   - **Amygdala**: Plays a significant role in emotional processing, particularly fear.\n   - **Prefrontal Cortex**: Involved in complex cognitive behaviors and decision-making.\n   - **Default Mode Network (DMN)**: Active when the brain is at rest, not actively focused on external stimuli or tasks.\n\n3. **Neuroplasticity**: This refers to the brain's remarkable ability to reorganize itself by forming new neural connections throughout life. It enables learning and adaptation.\n\n4. **Synapses**: These are the junctions between neurons where information is transmitted, representing crucial communication points in the nervous system.\n\n5. **Neurogenesis**: The process of generating new neurons from neural stem cells, which occurs primarily in specific areas like the hippocampus throughout life, contributing to cognitive functions and mental health.\n\n6. **Neural Networks and Pattern Recognition**: Although not explicitly stated as neural networks, RNNs are mentioned; they represent a category of artificial intelligence inspired by biological neurons' ability to recognize patterns in sequences (e.g., speech or text). This aligns with the brain's capacity for processing temporal information.\n\n7. **Blood-Brain Barrier**: While not a neuroscience topic per se, it's worth mentioning as a critical structure protecting the brain from harmful substances present in the bloodstream.\n\n8. **Transfer Learning and Knowledge Application**: The text subtly touches on cognitive processes involving learning and knowledge application by comparing Jane Austen's character creations (e.g., Mr. Collins, Lady Catherine de Bourgh) with real-life figures, suggesting analogies of the brain's plasticity in forming connections between new information and existing knowledge bases.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.",
+              "The amygdala plays a key role in processing emotions, particularly fear.",
+              "Neurons communicate with each other through electrical and chemical signals.",
+              "Neurogenesis is the process by which new neurons are formed in the brain.",
+              "The default mode network is active when the brain is at rest and not focused on the outside world.",
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.",
+              "Synapses are the junctions between neurons where information is transmitted.",
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making."
+            ],
+            "relevant_missed": [
+              "Glial cells provide support and protection for neurons in the brain.",
+              "The human brain contains approximately 86 billion neurons."
+            ],
+            "irrelevant_mentioned": [
+              "Transfer learning applies knowledge from one task to improve learning in another task."
+            ],
+            "relevant_match_scores": {
+              "The blood-brain barrier protects the brain from harmful substances in the bloodstream.": 0.8571428571428571,
+              "The amygdala plays a key role in processing emotions, particularly fear.": 0.8571428571428571,
+              "Neurons communicate with each other through electrical and chemical signals.": 0.875,
+              "Neurogenesis is the process by which new neurons are formed in the brain.": 0.8333333333333334,
+              "Glial cells provide support and protection for neurons in the brain.": 0.42857142857142855,
+              "The default mode network is active when the brain is at rest and not focused on the outside world.": 0.8,
+              "Neuroplasticity refers to the brain's ability to reorganize itself by forming new neural connections.": 0.8888888888888888,
+              "Synapses are the junctions between neurons where information is transmitted.": 0.8571428571428571,
+              "The human brain contains approximately 86 billion neurons.": 0.16666666666666666,
+              "The prefrontal cortex is involved in complex cognitive behaviors and decision making.": 1.0
+            },
+            "irrelevant_match_scores": {
+              "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models.": 0.36363636363636365,
+              "Transfer learning applies knowledge from one task to improve learning in another task.": 0.6666666666666666,
+              "Recurrent Neural Networks (RNNs) are designed to recognize patterns in sequences of data.": 0.5555555555555556,
+              "Reinforcement learning trains algorithms through a reward and punishment system.": 0.375,
+              "Overfitting occurs when a model learns the training data too well, including its noise and outliers.": 0.18181818181818182,
+              "Feature engineering transforms raw data into features that better represent the underlying problem.": 0.2,
+              "The bias-variance tradeoff is a central problem in supervised learning.": 0.0,
+              "Generative Adversarial Networks (GANs) consist of two networks that compete against each other.": 0.2,
+              "Deep learning uses multiple layers of neural networks to extract higher-level features from raw input.": 0.2727272727272727,
+              "Convolutional Neural Networks (CNNs) are particularly effective for image recognition tasks.": 0.5555555555555556
+            },
+            "recall": 0.8,
+            "precision": 0.9,
+            "combined_score": 0.83
+          }
+        },
+        "topic_switch_3_1": {
+          "score": 0.6599999999999999,
+          "time_taken": 81.65133261680603,
+          "relevant_facts": [
+            "The Roman calendar initially had 10 months, with January and February added later.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Roman Senate was originally an advisory council composed of patricians.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "The Roman Empire at its height covered over 5 million square kilometers.",
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "The Roman Republic was established in 509 BCE after the overthrow of the monarchy."
+          ],
+          "irrelevant_facts": [
+            "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "The Battle of Marathon in 490 BCE was a decisive victory for the Athenians against the Persians.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE."
+          ],
+          "response": "In the provided text, several significant aspects of ancient Rome are discussed:\n\n1. **Roman Calendar:** Initially, the Roman calendar consisted of 10 months, with January and February added later.\n\n2. **Greek Alphabet Origins:** The Greek alphabet was derived from the Phoenician alphabet, and it is still in use today.\n\n3. **Pax Romana:** This term refers to a period of relative peace and stability that lasted approximately 200 years during the Roman Empire's history.\n\n4. **Roman Mathematics & Science:** Ancient Romans made substantial advancements in mathematics, including geometry and number theory.\n\n5. **Concrete Construction:** Roman concrete (opus caementicium) was renowned for its durability compared to modern concrete.\n\n6. **Literary Legacy:** Two notable works attributed to Homer - The Iliad and the Odyssey - belong to the ancient Greek literature, but they significantly influenced Roman culture as well.\n\n7. **Roman Senate:** Originally established as an advisory council of patricians (wealthy landowners), it later evolved into a powerful political institution in the Roman Republic.\n\n8. **Military Victories & Conflicts:** The Battle of Marathon in 490 BCE, where Athenians defeated the Persians, is mentioned as a significant event for Greeks; however, it's more pertinent to Rome because the struggle against Macedonian expansion contributed to Rome's growth.\n\n9. **Expansion & Imperial Reach:** The Roman Empire reached its zenith at around 13 million inhabitants (covering over 5 million square kilometers), demonstrating extensive territorial control and influence.\n\n10. **Cultural Institutions:** Notable institutions like the Colosseum, which could accommodate between 50,000 to 80,000 spectators for public games, showcased Roman engineering prowess and entertainment culture.\n\n11. **Water Supply System - Aqueducts:** Romans built sophisticated aqueduct networks to supply water to cities and communities across the vast empire, ensuring efficient resource distribution.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "The Roman calendar initially had 10 months, with January and February added later.",
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+              "The Roman Senate was originally an advisory council composed of patricians.",
+              "The Colosseum could hold between 50,000 and 80,000 spectators.",
+              "The Roman Empire at its height covered over 5 million square kilometers.",
+              "Roman aqueducts supplied water to cities and towns across the empire."
+            ],
+            "relevant_missed": [
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+              "Roman citizens wore togas as a sign of their citizenship status.",
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy."
+            ],
+            "irrelevant_mentioned": [
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory."
+            ],
+            "relevant_match_scores": {
+              "The Roman calendar initially had 10 months, with January and February added later.": 1.0,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.8571428571428571,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.5,
+              "The Roman Senate was originally an advisory council composed of patricians.": 0.7142857142857143,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.0,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.2857142857142857,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.7142857142857143,
+              "The Roman Empire at its height covered over 5 million square kilometers.": 0.625,
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.625,
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.": 0.5
+            },
+            "irrelevant_match_scores": {
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.": 0.875,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.7777777777777778,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.3333333333333333,
+              "The Battle of Marathon in 490 BCE was a decisive victory for the Athenians against the Persians.": 0.5714285714285714,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.14285714285714285,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.2857142857142857,
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.": 0.125,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.2222222222222222,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.16666666666666666,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.5
+            },
+            "recall": 0.6,
+            "precision": 0.8,
+            "combined_score": 0.6599999999999999
+          }
+        },
+        "topic_switch_3_2": {
+          "score": 0.58,
+          "time_taken": 92.4737114906311,
+          "relevant_facts": [
+            "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+            "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+            "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+            "The Battle of Marathon in 490 BCE was a decisive victory for the Athenians against the Persians.",
+            "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+            "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+            "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+            "The Olympic Games began in 776 BCE and were held every four years in Olympia.",
+            "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+            "Ancient Greek civilization flourished from around 800 BCE to 146 BCE."
+          ],
+          "irrelevant_facts": [
+            "The Roman calendar initially had 10 months, with January and February added later.",
+            "The Pax Romana was a period of relative peace and stability that lasted about 200 years.",
+            "Roman concrete, known as opus caementicium, was more durable than modern concrete.",
+            "The Roman Senate was originally an advisory council composed of patricians.",
+            "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.",
+            "Roman citizens wore togas as a sign of their citizenship status.",
+            "The Colosseum could hold between 50,000 and 80,000 spectators.",
+            "The Roman Empire at its height covered over 5 million square kilometers.",
+            "Roman aqueducts supplied water to cities and towns across the empire.",
+            "The Roman Republic was established in 509 BCE after the overthrow of the monarchy."
+          ],
+          "response": "Ancient Greece flourished from around 800 BCE to 146 CE and made significant contributions to various fields:\n\n1. **Civilization**: Ancient Greek civilization was renowned for its cultural advancements, philosophical discourse, and political systems that have had enduring influences on Western thought.\n\n2. **Mythology**: Greek mythology featured gods and goddesses residing on Mount Olympus, with well-known tales involving heroes like Hercules (Heracles), Perseus, and Theseus. The twelve Labors of Hercules are famous examples.\n\n3. **Philosophy**: Notable philosophers emerged from this period, such as Socrates, Plato, Aristotle, and Epicurus. They developed fundamental ideas about ethics, metaphysics, epistemology, and political theory, shaping Western philosophical thought for millennia to come.\n\n4. **Mathematics & Science**: Greeks made substantial progress in mathematics, introducing the concept of axiomatic systems and geometry as a rigorous discipline. Important figures include Pythagoras (known for his theorem), Euclid (author of \"Elements,\" a foundational geometry textbook), Archimedes (mechanical engineer, physicist, and mathematician), and Hipparchus (discoverer of precession).\n\n5. **Drama & Literature**: The Greeks are the originators of Western drama with plays written by playwrights like Aeschylus, Sophocles, Euripides, and Aristophanes. Famous tragedies include \"Oedipus Rex\" (by Sophocles), \"Antigone,\" and comedies such as \"Lysistrata.\"\n\n6. **Politics & Democracy**: Ancient Greeks laid the groundwork for democratic systems with Athens, particularly during Periclean era under Cleisthenes in 508 BCE, introducing direct citizen participation in decision-making processes through assemblies like the Ecclesia.\n\n7. **Architecture & Engineering**: Greeks are known for architectural marvels and engineering feats, including Doric, Ionic, and Corinthian orders used in temple architecture. Notable structures include the Parthenon on Acropolis, a temple complex dedicated to goddess Athena in Athens.\n\n8. **Olympic Games**: The first recorded Olympics took place in 776 BCE and served as a significant cultural event where athletes from various Greek city-states competed in sports like running, long jump, boxing, pankration (a mix of boxing and wrestling), and chariot racing.",
+          "evaluation_details": {
+            "relevant_mentioned": [
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.",
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.",
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.",
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE."
+            ],
+            "relevant_missed": [
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.",
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.",
+              "The Battle of Marathon in 490 BCE was a decisive victory for the Athenians against the Persians.",
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.",
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.",
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia."
+            ],
+            "irrelevant_mentioned": [],
+            "relevant_match_scores": {
+              "The Greek alphabet was derived from the Phoenician alphabet and is still used today.": 0.25,
+              "Ancient Greeks developed advanced mathematics, including geometry and number theory.": 0.6666666666666666,
+              "The Iliad and the Odyssey, attributed to Homer, are among the oldest works of Western literature.": 0.1111111111111111,
+              "The Battle of Marathon in 490 BCE was a decisive victory for the Athenians against the Persians.": 0.0,
+              "The Peloponnesian War (431-404 BCE) was fought between Athens and Sparta.": 0.14285714285714285,
+              "Alexander the Great created one of the largest empires in ancient history by the age of 30.": 0.14285714285714285,
+              "Greek mythology featured gods and goddesses who lived on Mount Olympus.": 0.75,
+              "The Olympic Games began in 776 BCE and were held every four years in Olympia.": 0.2222222222222222,
+              "Democracy originated in Athens around 508 BCE under Cleisthenes.": 0.6666666666666666,
+              "Ancient Greek civilization flourished from around 800 BCE to 146 BCE.": 0.8333333333333334
+            },
+            "irrelevant_match_scores": {
+              "The Roman calendar initially had 10 months, with January and February added later.": 0.0,
+              "The Pax Romana was a period of relative peace and stability that lasted about 200 years.": 0.14285714285714285,
+              "Roman concrete, known as opus caementicium, was more durable than modern concrete.": 0.1,
+              "The Roman Senate was originally an advisory council composed of patricians.": 0.0,
+              "Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 CE.": 0.25,
+              "Roman citizens wore togas as a sign of their citizenship status.": 0.14285714285714285,
+              "The Colosseum could hold between 50,000 and 80,000 spectators.": 0.0,
+              "The Roman Empire at its height covered over 5 million square kilometers.": 0.125,
+              "Roman aqueducts supplied water to cities and towns across the empire.": 0.0,
+              "The Roman Republic was established in 509 BCE after the overthrow of the monarchy.": 0.0
+            },
+            "recall": 0.4,
+            "precision": 1.0,
+            "combined_score": 0.58
+          }
+        }
+      }
+    }
+  }
+}

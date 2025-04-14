@@ -1,0 +1,555 @@
+{
+  "test_name": "basic_retrieval",
+  "model": "granite3.265536:latest",
+  "timestamp": "2025-04-14T19:05:08.019757",
+  "results_by_length": {
+    "1000": {
+      "accuracy": 0.8,
+      "position_results": {
+        "beginning": {
+          "correct": true,
+          "time_taken": 10.762310028076172,
+          "expected": "The rare purple mongoose was discovered in 2018 by Dr. Emily Chen in the highlands of Madagascar.",
+          "response": "The rare purple mongoose (Herpestes purpureus) was discovered in 2018 by Dr. Emily Chen. The discovery took place in the highlands of Madagascar, as mentioned in various scientific publications and news articles from around that time.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Dr": true,
+              "Emily": true,
+              "Chen": true,
+              "Madagascar": true
+            },
+            "number_matches": {
+              "2018": true
+            },
+            "fact_matches": {
+              "The rare purple mongoose was discovered in 2018 by Dr.": true,
+              "Emily Chen in the highlands of Madagascar.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "early": {
+          "correct": true,
+          "time_taken": 8.373398542404175,
+          "expected": "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.",
+          "response": "The ancient city of Avaloria was established in 327 BCE. It was renowned primarily for its advanced water filtration system, which utilized volcanic rocks for purification purposes. This innovative engineering feat distinguished the city and made it notable during its time.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Avaloria": true,
+              "BCE": true
+            },
+            "number_matches": {
+              "327": true
+            },
+            "fact_matches": {
+              "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "middle": {
+          "correct": true,
+          "time_taken": 14.299193620681763,
+          "expected": "The Zephyr Protocol was developed by physicist Dr. Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.",
+          "response": "The Zephyr Protocol, as described in Jane Austen's novel \"Pride and Prejudice\" (with a reference to a hypothetical 2021 development), was a significant advancement in quantum physics. It was devised by physicist Dr. Marcus Wei, who achieved the remarkable feat of demonstrating quantum entanglement over a distance of 15 kilometers in his Zephyr Protocol. This fictional extension of the original concept from Austen's work incorporates modern scientific advancements to explore potential implications within her classic narrative setting.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Zephyr": true,
+              "Protocol": true,
+              "Dr": true,
+              "Marcus": true,
+              "Wei": true
+            },
+            "number_matches": {
+              "2021": true,
+              "15": true
+            },
+            "fact_matches": {
+              "The Zephyr Protocol was developed by physicist Dr.": true,
+              "Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "late": {
+          "correct": true,
+          "time_taken": 48.9504017829895,
+          "expected": "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.",
+          "response": "The Crimson Nebula, specifically its concentration of beryllium-7, makes it an exceptional candidate for the James Webb Space Telescope (JWST) due to several reasons:\n\n1. **Beryllium-7 Abundance**: Beryllium-7 is a radioactive isotope with a half-life of approximately 53 days. Its presence in significant quantities can provide valuable insights into the nebula's physical conditions, star formation history, and the overall cosmic environment. The JWST's advanced spectroscopic capabilities will allow it to detect and analyze this isotope more precisely than ever before.\n\n2. **Star Formation Insights**: Beryllium-7 is primarily produced through stellar nucleosynthesis processes, particularly in massive stars. Therefore, studying its distribution within the Crimson Nebula can offer crucial information about the nebula's associated star formation regions and the types of stars that have contributed to its composition.\n\n3. **Cosmic Evolution**: By examining beryllium-7 in various interstellar clouds, astronomers aim to reconstruct the early universe's chemical evolution and better understand how heavy elements like beryllium form over time. The Crimson Nebula, with its unique isotopic signature, presents an opportunity to contribute significantly to this understanding.\n\n4. **JWST's High-Resolution Spectroscopy**: The JWST boasts unparalleled infrared sensitivity and high-resolution spectroscopic capabilities compared to previous space telescopes. This makes it exceptionally well-suited for detecting and characterizing trace elements like beryllium-7, even when they are diluted within the nebula's complex environments.\n\nIn summary, the Crimson Nebula's distinctive beryllium-7 concentration positions it as an attractive target for the James Webb Space Telescope due to its potential for providing insights into star formation, cosmic evolution, and stellar nucleosynthesis processes.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Crimson": true,
+              "Nebula": true,
+              "James": true,
+              "Webb": true,
+              "Space": true,
+              "Telescope": true
+            },
+            "number_matches": {
+              "7": true,
+              "2026": false
+            },
+            "fact_matches": {
+              "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 0.5,
+            "fact_score": 1.0,
+            "overall_score": 0.85
+          }
+        },
+        "end": {
+          "correct": false,
+          "time_taken": 33.68201732635498,
+          "expected": "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.",
+          "response": "The world's largest private collection of antique music boxes, known as \"The Music Box Collection,\" is housed in a private residence in England, specifically at Hickman House in Banbury. This collection belongs to the distinguished owner, George Allen, who has been amassing these exquisite mechanical marvels for over five decades.\n\nAs of 2019 (when this information was last updated), Hickman House housed approximately 3,500 antique music boxes from various periods and countries, including but not limited to: France, Germany, Italy, Japan, Austria, Russia, the United States, and China. The collection spans more than two centuries, showcasing an incredible array of intricate designs, materials, and musical expressions from these timeless mechanical instruments.\n\nGeorge Allen's dedication to preserving and sharing this unique historical art form has led him to publish several books on music boxes, such as \"Music Boxes: A Complete Guide\" (2014), in which he meticulously documents his collection. The Music Box Collection serves not only as a captivating display of craftsmanship but also as an educational resource for enthusiasts and scholars alike, further solidifying its position as the world's most comprehensive assembly of antique music boxes under one roof.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Melodia": false,
+              "Museum": false,
+              "Vienna": false
+            },
+            "number_matches": {
+              "4": true,
+              "827": false,
+              "1796": false,
+              "1935": false
+            },
+            "fact_matches": {
+              "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.": false
+            },
+            "entity_score": 0.25,
+            "number_score": 0.25,
+            "fact_score": 0.0,
+            "overall_score": 0.15
+          }
+        }
+      }
+    },
+    "5000": {
+      "accuracy": 1.0,
+      "position_results": {
+        "beginning": {
+          "correct": true,
+          "time_taken": 6.232637643814087,
+          "expected": "The rare purple mongoose was discovered in 2018 by Dr. Emily Chen in the highlands of Madagascar.",
+          "response": "The rare purple mongoose (Herpestes purpureus) was discovered in 2018 by Dr. Emily Chen.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Dr": true,
+              "Emily": true,
+              "Chen": true,
+              "Madagascar": false
+            },
+            "number_matches": {
+              "2018": true
+            },
+            "fact_matches": {
+              "The rare purple mongoose was discovered in 2018 by Dr.": true,
+              "Emily Chen in the highlands of Madagascar.": false
+            },
+            "entity_score": 0.8,
+            "number_score": 1.0,
+            "fact_score": 0.5,
+            "overall_score": 0.74
+          }
+        },
+        "early": {
+          "correct": true,
+          "time_taken": 11.625041484832764,
+          "expected": "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.",
+          "response": "The ancient city of Avaloria was founded in 327 BCE and was renowned for its sophisticated water filtration system that utilized volcanic rocks. This unique feature made Avaloria stand out among other cities during its time, as it showcased advanced knowledge in hydraulics and resource management.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Avaloria": true,
+              "BCE": true
+            },
+            "number_matches": {
+              "327": true
+            },
+            "fact_matches": {
+              "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "middle": {
+          "correct": true,
+          "time_taken": 12.104662656784058,
+          "expected": "The Zephyr Protocol was developed by physicist Dr. Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.",
+          "response": "The Zephyr Protocol is a significant development in quantum physics, specifically demonstrating quantum entanglement across a distance of 15 kilometers. It was created by physicist Dr. Marcus Wei in the year 2021. The protocol showcases the potential for long-distance quantum communication and has advanced our understanding of quantum mechanics in these realms.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Zephyr": true,
+              "Protocol": true,
+              "Dr": true,
+              "Marcus": true,
+              "Wei": true
+            },
+            "number_matches": {
+              "2021": true,
+              "15": true
+            },
+            "fact_matches": {
+              "The Zephyr Protocol was developed by physicist Dr.": true,
+              "Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "late": {
+          "correct": true,
+          "time_taken": 10.326603412628174,
+          "expected": "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.",
+          "response": "The Crimson Nebula is a prime target for the James Webb Space Telescope due to its unusually high concentration of beryllium-7. This unique element composition makes it an essential subject for scientific study, especially regarding nuclear astrophysics and the life cycle of stars.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Crimson": true,
+              "Nebula": true,
+              "James": true,
+              "Webb": true,
+              "Space": true,
+              "Telescope": true
+            },
+            "number_matches": {
+              "7": true,
+              "2026": false
+            },
+            "fact_matches": {
+              "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 0.5,
+            "fact_score": 1.0,
+            "overall_score": 0.85
+          }
+        },
+        "end": {
+          "correct": true,
+          "time_taken": 10.191675424575806,
+          "expected": "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.",
+          "response": "The world's largest collection of antique music boxes is housed in the Melodia Museum, located in Vienna, Austria. This museum boasts an impressive 4,827 unique specimens that span from 1796 to 1935.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Melodia": true,
+              "Museum": true,
+              "Vienna": true
+            },
+            "number_matches": {
+              "4": true,
+              "827": true,
+              "1796": true,
+              "1935": true
+            },
+            "fact_matches": {
+              "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        }
+      }
+    },
+    "10000": {
+      "accuracy": 1.0,
+      "position_results": {
+        "beginning": {
+          "correct": true,
+          "time_taken": 9.768699884414673,
+          "expected": "The rare purple mongoose was discovered in 2018 by Dr. Emily Chen in the highlands of Madagascar.",
+          "response": "The rare purple mongoose (Herpestes purpureus) was discovered in 2018 by Dr. Emily Chen.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Dr": true,
+              "Emily": true,
+              "Chen": true,
+              "Madagascar": false
+            },
+            "number_matches": {
+              "2018": true
+            },
+            "fact_matches": {
+              "The rare purple mongoose was discovered in 2018 by Dr.": true,
+              "Emily Chen in the highlands of Madagascar.": false
+            },
+            "entity_score": 0.8,
+            "number_score": 1.0,
+            "fact_score": 0.5,
+            "overall_score": 0.74
+          }
+        },
+        "early": {
+          "correct": true,
+          "time_taken": 11.44804072380066,
+          "expected": "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.",
+          "response": "The ancient city of Avaloria was founded in 327 BCE and was renowned for its advanced water filtration system that utilized volcanic rocks.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Avaloria": true,
+              "BCE": true
+            },
+            "number_matches": {
+              "327": true
+            },
+            "fact_matches": {
+              "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "middle": {
+          "correct": true,
+          "time_taken": 17.18908953666687,
+          "expected": "The Zephyr Protocol was developed by physicist Dr. Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.",
+          "response": "The Zephyr Protocol, as mentioned in the provided text, was a significant development in quantum physics. It demonstrated quantum entanglement across a distance of 15 kilometers by physicist Dr. Marcus Wei in 2021. This protocol showcases advancements in long-distance communication and quantum technology.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Zephyr": true,
+              "Protocol": true,
+              "Dr": true,
+              "Marcus": true,
+              "Wei": true
+            },
+            "number_matches": {
+              "2021": true,
+              "15": true
+            },
+            "fact_matches": {
+              "The Zephyr Protocol was developed by physicist Dr.": true,
+              "Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "late": {
+          "correct": true,
+          "time_taken": 16.958256483078003,
+          "expected": "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.",
+          "response": "The Crimson Nebula contains an unusual concentration of beryllium-7. This specific element is attractive to scientists and makes it a prime target for study by telescopes like the James Webb Space Telescope, which will be launched in 2026 to observe distant galaxies and stars, including those with unique chemical compositions.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Crimson": true,
+              "Nebula": true,
+              "James": true,
+              "Webb": true,
+              "Space": true,
+              "Telescope": true
+            },
+            "number_matches": {
+              "7": true,
+              "2026": true
+            },
+            "fact_matches": {
+              "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "end": {
+          "correct": true,
+          "time_taken": 10.297571420669556,
+          "expected": "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.",
+          "response": "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Melodia": true,
+              "Museum": true,
+              "Vienna": true
+            },
+            "number_matches": {
+              "4": true,
+              "827": true,
+              "1796": true,
+              "1935": true
+            },
+            "fact_matches": {
+              "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        }
+      }
+    },
+    "20000": {
+      "accuracy": 0.8,
+      "position_results": {
+        "beginning": {
+          "correct": true,
+          "time_taken": 15.843755960464478,
+          "expected": "The rare purple mongoose was discovered in 2018 by Dr. Emily Chen in the highlands of Madagascar.",
+          "response": "The rare purple mongoose was discovered in 2018 by Dr. Emily Chen.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Dr": true,
+              "Emily": true,
+              "Chen": true,
+              "Madagascar": false
+            },
+            "number_matches": {
+              "2018": true
+            },
+            "fact_matches": {
+              "The rare purple mongoose was discovered in 2018 by Dr.": true,
+              "Emily Chen in the highlands of Madagascar.": false
+            },
+            "entity_score": 0.8,
+            "number_score": 1.0,
+            "fact_score": 0.5,
+            "overall_score": 0.74
+          }
+        },
+        "early": {
+          "correct": true,
+          "time_taken": 17.736198902130127,
+          "expected": "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.",
+          "response": "Avaloria was founded in 327 BCE and was renowned for its advanced water filtration system utilizing volcanic rocks.",
+          "match_details": {
+            "entity_matches": {
+              "The": false,
+              "Avaloria": true,
+              "BCE": true
+            },
+            "number_matches": {
+              "327": true
+            },
+            "fact_matches": {
+              "The ancient city of Avaloria was founded in 327 BCE and was known for its advanced water filtration system using volcanic rocks.": true
+            },
+            "entity_score": 0.6666666666666666,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 0.9
+          }
+        },
+        "middle": {
+          "correct": true,
+          "time_taken": 22.512319326400757,
+          "expected": "The Zephyr Protocol was developed by physicist Dr. Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.",
+          "response": "The Zephyr Protocol was developed by physicist Dr. Marcus Wei in 2021. It demonstrated quantum entanglement across a distance of 15 kilometers. This technology showcases advancements in communication and information transfer, enabling the potential for instantaneous data exchange over long distances through quantum networks.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Zephyr": true,
+              "Protocol": true,
+              "Dr": true,
+              "Marcus": true,
+              "Wei": true
+            },
+            "number_matches": {
+              "2021": true,
+              "15": true
+            },
+            "fact_matches": {
+              "The Zephyr Protocol was developed by physicist Dr.": true,
+              "Marcus Wei in 2021 and demonstrated quantum entanglement across a distance of 15 kilometers.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        },
+        "late": {
+          "correct": false,
+          "time_taken": 21.266765832901,
+          "expected": "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.",
+          "response": "Apologies for any confusion, but the provided text discusses Jane Austen's novel \"Pride and Prejudice\" and George Eliot (Mary Ann Evans) in relation to her writing style and character development. It does not mention the Crimson Nebula or its relevance to the James Webb Space Telescope for observation in 2026.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Crimson": true,
+              "Nebula": true,
+              "James": true,
+              "Webb": true,
+              "Space": true,
+              "Telescope": true
+            },
+            "number_matches": {
+              "7": false,
+              "2026": true
+            },
+            "fact_matches": {
+              "The Crimson Nebula contains an unusual concentration of beryllium-7, making it a prime target for the James Webb Space Telescope in 2026.": false
+            },
+            "entity_score": 1.0,
+            "number_score": 0.5,
+            "fact_score": 0.0,
+            "overall_score": 0.44999999999999996
+          }
+        },
+        "end": {
+          "correct": true,
+          "time_taken": 15.542117595672607,
+          "expected": "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.",
+          "response": "The world's largest collection of antique music boxes is housed in the Melodia Museum located in Vienna, with a total of 4,827 unique specimens dating from 1796 to 1935.",
+          "match_details": {
+            "entity_matches": {
+              "The": true,
+              "Melodia": true,
+              "Museum": true,
+              "Vienna": true
+            },
+            "number_matches": {
+              "4": true,
+              "827": true,
+              "1796": true,
+              "1935": true
+            },
+            "fact_matches": {
+              "The world's largest collection of antique music boxes is housed in the Melodia Museum in Vienna, with 4,827 unique specimens dating from 1796 to 1935.": true
+            },
+            "entity_score": 1.0,
+            "number_score": 1.0,
+            "fact_score": 1.0,
+            "overall_score": 1.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+FROM granite3.2:2b-instruct-q8_0
+PARAMETER num_ctx 65536
